@@ -1,0 +1,525 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2015-04-01T00:32:06.510Z,-18.385,168.5283,70.46,4.6,mb,,102,3.185,0.99,us,us200026a4,2015-06-12T01:53:32.040Z,"75 km SSE of Port-Vila, Vanuatu",earthquake,11.4,4.5,0.192,8,reviewed,us,us
+2015-04-01T01:13:13.790Z,-5.5352,152.2531,10,4.6,mb,,149,1.338,1,us,us10001smt,2015-06-12T01:53:32.040Z,"131 km S of Kokopo, Papua New Guinea",earthquake,10.6,1.9,0.084,43,reviewed,us,us
+2015-04-01T01:14:45.460Z,-5.3706,147.5269,159.15,4.5,mb,,70,4.024,0.72,us,us200026av,2015-06-12T01:53:32.040Z,"135 km NNW of Finschhafen, Papua New Guinea",earthquake,11.9,7.9,0.157,12,reviewed,us,us
+2015-04-01T01:45:15.900Z,-14.911,-13.5388,10,4.8,mb,,68,7.587,0.76,us,us200026a6,2015-06-12T01:53:33.040Z,"southern Mid-Atlantic Ridge",earthquake,8.9,1.6,0.119,22,reviewed,us,us
+2015-04-01T02:02:01.250Z,-5.2962,152.5748,38.49,4.7,mb,,100,1.171,0.93,us,us200026a7,2015-06-12T01:53:33.040Z,"110 km SSE of Kokopo, Papua New Guinea",earthquake,13,7.7,0.121,21,reviewed,us,us
+2015-04-01T02:09:11.230Z,0.9301,124.0097,222.81,4.9,mb,,52,2.317,0.91,us,us10001sn7,2015-06-12T01:53:33.040Z,"98 km WSW of Tomohon, Indonesia",earthquake,7.4,5,0.048,134,reviewed,us,us
+2015-04-01T05:32:13.660Z,28.0109,131.1019,35.06,4.5,mb,,122,2.185,1.21,us,us200026ab,2015-06-12T01:53:33.040Z,"163 km ESE of Naze, Japan",earthquake,5.9,8.9,0.22,6,reviewed,us,us
+2015-04-01T05:33:35.870Z,-16.3872,177.8147,25.79,4.6,mb,,112,1.369,0.94,us,us10001sp1,2015-06-12T01:53:33.040Z,"127 km N of Ba, Fiji",earthquake,9.5,5.8,0.097,32,reviewed,us,us
+2015-04-01T06:01:46.650Z,-5.6458,153.0799,10,4.6,mb,,83,1.709,0.93,us,us10001sp7,2015-06-12T01:53:33.040Z,"169 km SSE of Kokopo, Papua New Guinea",earthquake,11.3,1.9,0.082,44,reviewed,us,us
+2015-04-01T08:11:29.260Z,53.5487,161.744,37.8,4.6,mb,,111,1.93,1.06,us,us10001spl,2015-06-12T01:53:33.040Z,"213 km ENE of Petropavlovsk-Kamchatsky, Russia",earthquake,7.6,3.8,0.049,122,reviewed,us,us
+2015-04-01T08:17:27.860Z,-29.3442,-71.718,31.56,5.4,mww,,71,0.949,0.99,us,us10001spm,2022-05-03T17:18:28.438Z,"76 km NNW of Coquimbo, Chile",earthquake,6.5,3,,,reviewed,us,us
+2015-04-01T09:35:56.030Z,-6.9009,132.542,9,5.4,mww,,20,1.635,0.71,us,us10001spt,2022-05-03T17:18:33.850Z,"142 km S of Tual, Indonesia",earthquake,6.1,1.6,,,reviewed,us,us
+2015-04-01T10:00:38.210Z,15.8841,-91.4031,23.14,4.5,mb,,93,0.57,1.28,us,us10001sq1,2015-06-12T01:53:33.040Z,"9 km NE of San Mateo Ixtatán, Guatemala",earthquake,7.2,5.9,0.065,69,reviewed,us,us
+2015-04-01T11:06:35.790Z,-16.0213,-172.8346,10,5.5,mwc,,54,8.89,0.69,us,us10001sqq,2016-11-10T21:47:00.317Z,"103 km E of Hihifo, Tonga",earthquake,5.8,1.6,,,reviewed,us,gcmt
+2015-04-01T15:30:32.060Z,29.4926,-42.9124,10,4.5,mb,,110,15.225,0.58,us,us200026ae,2015-06-12T01:53:33.040Z,"northern Mid-Atlantic Ridge",earthquake,9.1,1.9,0.099,30,reviewed,us,us
+2015-04-01T15:44:46.600Z,-48.8898,30.7297,10,4.5,mb,,97,18.102,1.3,us,us200026af,2015-06-12T01:53:33.040Z,"south of Africa",earthquake,13.4,2,0.181,9,reviewed,us,us
+2015-04-01T15:56:58.310Z,51.8166,176.6533,55.71,4.6,mb,,63,1.159,0.94,us,us10001st4,2023-07-26T14:27:09.827Z,"262 km ESE of Attu Station, Alaska",earthquake,6.5,5.2,0.045,148,reviewed,us,us
+2015-04-01T16:21:18.790Z,-1.8319,99.6712,10.57,4.5,mb,,53,2.543,0.48,us,us10001stg,2015-06-12T01:53:34.040Z,"123 km SW of Padang, Indonesia",earthquake,8.1,4.3,0.101,29,reviewed,us,us
+2015-04-01T16:32:00.470Z,45.0555,150.7492,40.51,4.5,mb,,138,5.881,0.72,us,us10001stj,2015-06-12T01:53:34.040Z,"226 km E of Kuril’sk, Russia",earthquake,10.1,7.8,0.089,37,reviewed,us,us
+2015-04-01T16:32:47.040Z,-30.1919,-178.8745,35,4.5,mb,,137,1.251,1.23,us,us200026ag,2015-06-12T01:53:34.040Z,"Kermadec Islands, New Zealand",earthquake,12.5,2,0.204,7,reviewed,us,us
+2015-04-01T16:45:21.200Z,-10.5415,-78.0795,48,5.3,mwb,,74,1.881,0.87,us,us10001sts,2022-07-28T05:38:54.642Z,"30 km WNW of Paramonga, Peru",earthquake,6.1,1.9,0.058,29,reviewed,us,us
+2015-04-01T16:45:58.740Z,29.2007,-43.0835,10,4.6,mb,,186,33.369,0.89,us,us200026aq,2015-06-12T01:53:34.040Z,"northern Mid-Atlantic Ridge",earthquake,15.5,1.7,0.109,25,reviewed,us,us
+2015-04-01T16:59:02.560Z,29.2003,59.6857,10,4.7,mb,,51,1.034,1.06,us,us10001su5,2015-06-12T01:53:34.040Z,"82 km SSW of No?rat?b?d, Iran",earthquake,4.8,1.9,0.07,62,reviewed,us,us
+2015-04-01T20:08:15.670Z,-30.4802,-178.2791,12.94,4.5,mb,,187,1.268,0.58,us,us200026aj,2015-06-12T01:53:34.040Z,"Kermadec Islands, New Zealand",earthquake,12.2,7.1,0.18,9,reviewed,us,us
+2015-04-01T21:23:54.400Z,30.3521,79.5107,10,4.9,mb,,31,6.238,0.52,us,us10001sx7,2022-07-28T05:43:36.289Z,"11 km SE of P?palkoti, India",earthquake,6.9,1.8,0.05,124,reviewed,us,us
+2015-04-01T23:50:23.980Z,-20.8808,-178.9619,561.23,4.5,mb,,223,4.204,0.92,us,us10001szb,2015-06-12T01:53:34.040Z,"Fiji region",earthquake,20.5,18.2,0.108,25,reviewed,us,us
+2015-04-02T00:44:54.070Z,14.8407,-91.4674,154.94,4.8,mb,,47,0.383,0.92,us,us10001szg,2015-06-16T01:00:22.040Z,"3 km NNW of Cantel, Guatemala",earthquake,6.6,4.4,0.047,142,reviewed,us,us
+2015-04-02T00:56:38.960Z,28.7007,86.3309,57.33,4.6,mb,,75,4.31,0.54,us,us10001szi,2015-06-16T01:00:22.040Z,"89 km NNE of Kod?ri??, Nepal",earthquake,8.6,6.6,0.062,77,reviewed,us,us
+2015-04-02T01:15:19.490Z,29.2615,-42.8917,10,4.6,mb,,83,33.504,0.64,us,us200025lm,2015-06-16T01:00:22.040Z,"northern Mid-Atlantic Ridge",earthquake,13.1,1.9,0.114,23,reviewed,us,us
+2015-04-02T02:56:09.460Z,-4.4567,102.6599,61.55,5.1,mb,,27,0.31,0.55,us,us10001t06,2015-06-16T01:00:23.040Z,"80 km SW of Pagar Alam, Indonesia",earthquake,6.7,4.1,0.064,78,reviewed,us,us
+2015-04-02T04:10:10.000Z,-17.8607,-178.5831,560,5.9,mww,,20,3.207,0.67,us,us10001t0z,2022-05-03T18:23:48.575Z,"223 km E of Levuka, Fiji",earthquake,3.3,1.9,,,reviewed,us,us
+2015-04-02T07:42:02.000Z,-28.65,-70.807,45.1,4.7,mww,,,,1.26,us,us10001t29,2022-07-28T05:50:52.963Z,"9 km SSW of Vallenar, Chile",earthquake,6.6,4.5,,,reviewed,guc,us
+2015-04-02T09:19:41.040Z,-5.5855,152.8713,36.55,4.7,mb,,131,1.554,1.02,us,us10001t2q,2015-06-16T01:00:23.040Z,"New Britain region, Papua New Guinea",earthquake,10.7,7.4,0.092,36,reviewed,us,us
+2015-04-02T10:39:46.790Z,-23.8604,-179.6767,535.71,4.6,mb,,200,6.444,0.67,us,us200025m0,2015-06-16T01:00:23.040Z,"south of the Fiji Islands",earthquake,15.1,18,0.103,28,reviewed,us,us
+2015-04-02T12:41:21.440Z,6.4875,126.8086,196.74,4.6,mb,,115,5.704,0.79,us,us10001t3m,2015-06-16T01:00:23.040Z,"67 km SE of Bobon, Philippines",earthquake,9.9,8,0.069,63,reviewed,us,us
+2015-04-02T12:53:51.500Z,-30.1115,-178.8423,12.89,4.7,mb,,76,1.173,0.75,us,us10001t3u,2015-06-16T01:00:23.040Z,"Kermadec Islands, New Zealand",earthquake,9.1,3.8,0.142,21,reviewed,us,us
+2015-04-02T13:26:08.330Z,-30.4118,-178.8414,49.93,4.7,mb,,146,1.407,0.69,us,us200025m2,2015-06-16T01:00:23.040Z,"Kermadec Islands, New Zealand",earthquake,12.6,8.4,0.183,9,reviewed,us,us
+2015-04-02T13:54:28.820Z,24.9812,145.9814,34.12,4.8,mb,,68,4.012,0.93,us,us10001t43,2015-06-16T01:00:23.040Z,"East of the Volcano Islands",earthquake,8.1,4.2,0.101,30,reviewed,us,us
+2015-04-02T15:01:54.130Z,-5.0597,152.9516,20.72,4.6,mb,,67,7.186,0.91,us,us200025m4,2015-06-16T01:00:23.040Z,"109 km SE of Kokopo, Papua New Guinea",earthquake,10.2,3.9,0.132,17,reviewed,us,us
+2015-04-02T16:18:05.540Z,-35.679,-101.5145,11.59,4.8,mb,,166,24.39,0.69,us,us200025ma,2015-06-16T01:00:23.040Z,"southeast of Easter Island",earthquake,12,4.4,0.115,23,reviewed,us,us
+2015-04-02T17:42:51.750Z,-23.1359,179.397,538.46,4.7,mb,,72,5.509,1.14,us,us10001ta6,2015-06-16T01:00:23.040Z,"south of the Fiji Islands",earthquake,10.3,6.8,0.068,66,reviewed,us,us
+2015-04-02T18:07:10.030Z,-35.5184,-98.7841,15.7,4.6,mb,,194,20.82,0.83,us,us10001taf,2015-06-16T01:00:23.040Z,"southeast of Easter Island",earthquake,21.1,7.1,0.1,30,reviewed,us,us
+2015-04-02T19:04:42.570Z,38.6212,142.0475,59.42,4.5,mb,,77,1.242,1.28,us,us10001tb2,2022-07-28T05:56:15.541Z,"57 km SSE of ?funato, Japan",earthquake,1.8,6.4,0.057,90,reviewed,us,us
+2015-04-02T20:17:02.090Z,-5.3175,152.6553,27.46,4.5,mb,,150,1.221,0.59,us,us10001tca,2015-06-16T01:00:24.040Z,"115 km SSE of Kokopo, Papua New Guinea",earthquake,10.3,6.9,0.111,24,reviewed,us,us
+2015-04-02T20:23:38.420Z,-5.5761,153.1062,18.84,4.5,mb,,108,1.665,0.6,us,us200025mh,2015-06-16T01:00:24.040Z,"164 km SE of Kokopo, Papua New Guinea",earthquake,10,5,0.113,23,reviewed,us,us
+2015-04-02T20:51:09.300Z,-6.4607,146.9203,37.18,5.4,mb,,12,2.934,0.93,us,us10001td7,2022-07-28T05:57:13.951Z,"30 km NNW of Lae, Papua New Guinea",earthquake,6.6,2.8,0.043,182,reviewed,us,us
+2015-04-02T21:49:04.530Z,-4.3183,143.2625,126.61,4.7,mb,,34,3.119,0.8,us,us10001tfc,2015-06-16T01:00:24.040Z,"50 km ESE of Ambunti, Papua New Guinea",earthquake,7.7,6.3,0.074,56,reviewed,us,us
+2015-04-03T00:24:35.510Z,-5.639,152.9786,25.39,4.9,mb,,67,1.651,0.68,us,us10001tgn,2015-06-16T01:00:24.040Z,"163 km SSE of Kokopo, Papua New Guinea",earthquake,7.8,4.7,0.061,85,reviewed,us,us
+2015-04-03T01:58:59.200Z,-20.7785,-67.7266,159.21,4.6,mb,,64,1.48,1.14,us,us10001th6,2022-07-28T06:00:59.344Z,"98 km WSW of Colchani, Bolivia",earthquake,7.1,6,0.047,132,reviewed,us,us
+2015-04-03T04:33:37.670Z,49.9991,156.1467,93.7,4.8,mb,,109,3.26,0.64,us,us10001thw,2015-06-16T01:00:24.040Z,"75 km S of Severo-Kuril’sk, Russia",earthquake,9.6,5.9,0.036,234,reviewed,us,us
+2015-04-03T06:04:16.200Z,1.7534,89.6139,10,4.8,mb,,147,7.971,1.1,us,us10001ti1,2015-06-16T01:00:24.040Z,"North Indian Ocean",earthquake,6.1,1.9,0.075,55,reviewed,us,us
+2015-04-03T08:29:30.293Z,67.5484,-145.6949,10.7,4.6,ml,,,,0.85,ak,ak01549xx0v9,2023-07-26T14:32:17.301Z,"64 km S of Arctic Village, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2015-04-03T09:11:49.010Z,-5.6018,153.1195,35,4.9,mb,,68,1.694,0.88,us,us10001tj2,2015-06-16T01:00:24.040Z,"168 km SE of Kokopo, Papua New Guinea",earthquake,7.2,1.9,0.061,85,reviewed,us,us
+2015-04-03T09:32:51.130Z,-7.2002,-13.2114,10,4.6,mb,,80,1.351,1.22,us,us200025n8,2015-06-16T01:00:24.040Z,"155 km ENE of Georgetown, Saint Helena",earthquake,9.6,1.2,0.165,11,reviewed,us,us
+2015-04-03T09:35:20.740Z,-7.0673,-13.1406,10,4.8,mb,,115,1.483,0.98,us,us200025n9,2015-06-16T01:00:24.040Z,"169 km NE of Georgetown, Saint Helena",earthquake,9.1,1.9,0.124,20,reviewed,us,us
+2015-04-03T10:31:17.440Z,-30.2032,-178.8497,10,5.3,mb,,65,1.246,1.23,us,us10001tjh,2022-05-03T17:18:41.468Z,"Kermadec Islands, New Zealand",earthquake,6.3,1.7,0.059,96,reviewed,us,us
+2015-04-03T10:47:45.420Z,-5.587,152.9716,13.08,4.8,mb,,75,1.603,0.89,us,us10001tjk,2015-06-16T01:00:24.040Z,"158 km SSE of Kokopo, Papua New Guinea",earthquake,4.2,3.9,0.068,67,reviewed,us,us
+2015-04-03T12:23:55.350Z,23.255,94.263,109.7,4.5,mb,,129,3.179,0.79,us,us200025np,2015-06-16T01:00:25.040Z,"45 km SSW of Mawlaik, Myanmar",earthquake,8.6,9.6,0.163,11,reviewed,us,us
+2015-04-03T12:32:38.670Z,-23.0158,-176.3463,59.21,5.5,mwc,,35,6.364,0.83,us,us10001tjy,2016-11-10T21:47:01.439Z,"235 km SSW of Vaini, Tonga",earthquake,8.4,4.4,,,reviewed,us,gcmt
+2015-04-03T12:36:58.000Z,13.004,-88.729,62.2,4.6,mb,,,,1.14,us,us10001tk0,2015-06-16T01:00:25.040Z,"36 km SSW of Puerto El Triunfo, El Salvador",earthquake,3.8,5.3,0.036,235,reviewed,snet,us
+2015-04-03T12:45:21.710Z,10.5197,93.3413,104.21,4.6,mb,,128,1.272,1.08,us,us10001tkc,2015-06-16T01:00:25.040Z,"142 km SSE of Port Blair, India",earthquake,9.6,5.8,0.082,44,reviewed,us,us
+2015-04-03T17:44:03.160Z,-17.3488,-176.978,379.17,5.2,mb,,19,4.757,1.2,us,us10001tmh,2022-05-03T18:37:42.074Z,"Fiji region",earthquake,7.7,3.7,0.029,397,reviewed,us,us
+2015-04-03T17:49:00.410Z,46.7843,152.5858,66.75,4.7,mb,,149,7.136,0.82,us,us200025nq,2015-06-16T01:00:25.040Z,"Kuril Islands",earthquake,9.5,7,0.133,18,reviewed,us,us
+2015-04-03T18:31:10.050Z,-36.0117,-73.4359,15.61,4.5,mwr,,143,0.893,0.69,us,us10001tn5,2015-06-16T01:00:25.040Z,"79 km NNW of Tomé, Chile",earthquake,6.7,3.9,0.075,17,reviewed,us,us
+2015-04-03T18:32:29.650Z,9.4633,-83.767,22.89,4.5,mwr,,113,0.119,1.35,us,us200025nu,2015-06-16T01:00:25.040Z,"13 km NW of San Isidro, Costa Rica",earthquake,3.4,4.4,0.063,24,reviewed,us,us
+2015-04-03T18:42:38.060Z,9.4867,-83.7983,11.78,4.6,mwr,,46,0.157,1.42,us,us10001tnh,2022-07-28T06:01:56.991Z,"17 km NW of San Isidro, Costa Rica",earthquake,3.9,3.7,0.065,23,reviewed,us,us
+2015-04-03T18:48:42.360Z,0.3913,122.0469,123.62,4.8,mb,,51,1.597,0.98,us,us10001tni,2015-06-16T01:00:25.040Z,"114 km W of Gorontalo, Indonesia",earthquake,7.6,6.5,0.061,84,reviewed,us,us
+2015-04-03T19:22:25.860Z,-5.0445,153.0379,53.23,5.2,mb,,47,1.215,0.86,us,us10001tnz,2022-05-03T17:18:47.131Z,"115 km SE of Kokopo, Papua New Guinea",earthquake,7.2,4,0.047,149,reviewed,us,us
+2015-04-03T20:35:03.730Z,37.1602,142.3951,16.65,4.5,mb,,120,1.459,0.97,us,us200025nz,2015-06-16T01:00:25.040Z,"128 km ESE of Namie, Japan",earthquake,6.9,4.2,0.086,40,reviewed,us,us
+2015-04-03T21:17:54.770Z,-6.2934,147.7519,30,5.9,mww,,10,3.146,0.97,us,us10001tqi,2022-07-28T06:02:56.474Z,"31 km NNW of Finschhafen, Papua New Guinea",earthquake,5.9,1.7,,,reviewed,us,us
+2015-04-03T21:53:02.140Z,-5.5376,152.5612,10,4.6,mb,,91,1.395,0.9,us,us10001tqx,2015-06-16T01:00:25.040Z,"136 km SSE of Kokopo, Papua New Guinea",earthquake,7.7,1.9,0.101,29,reviewed,us,us
+2015-04-04T01:34:19.620Z,-56.1266,-27.2346,74.84,4.9,mb,,57,5.611,0.66,us,us10001tth,2015-06-16T01:00:26.040Z,"South Sandwich Islands region",earthquake,11.5,5.5,0.089,39,reviewed,us,us
+2015-04-04T04:08:36.540Z,-5.3415,152.87,30.15,5.1,mb,,29,1.342,0.75,us,us10001tui,2015-06-16T01:00:26.040Z,"128 km SSE of Kokopo, Papua New Guinea",earthquake,5.9,3.4,0.045,157,reviewed,us,us
+2015-04-04T04:38:20.000Z,38.315,20.525,11.2,4.6,mb,,,,1.2,us,us10001tup,2015-06-16T01:00:26.040Z,"12 km WNW of Sámi, Greece",earthquake,5.8,4.2,0.081,45,reviewed,the,us
+2015-04-04T05:27:12.810Z,-17.6353,-174.1136,82.27,4.6,mb,,116,4.333,1.17,us,us10001tvb,2015-06-16T01:00:26.040Z,"113 km N of Neiafu, Tonga",earthquake,12.1,6.6,0.063,75,reviewed,us,us
+2015-04-04T08:06:18.250Z,-2.7838,127.6915,18.11,5.3,mwb,,24,3.546,0.87,us,us10001tvx,2022-05-03T17:18:52.733Z,"114 km NNW of Ambon, Indonesia",earthquake,4.2,3.1,0.066,22,reviewed,us,us
+2015-04-04T11:07:45.490Z,50.682,-173.3363,10,4.5,mb,,192,1.614,0.83,us,us10001tx5,2023-07-26T14:36:29.555Z,"178 km SSE of Atka, Alaska",earthquake,4.8,1.9,0.042,165,reviewed,us,us
+2015-04-04T12:11:29.880Z,-5.4601,152.9948,34.26,4.7,mb,,75,1.508,0.74,us,us10001txb,2015-06-16T01:00:26.040Z,"147 km SSE of Kokopo, Papua New Guinea",earthquake,8.8,5.4,0.082,45,reviewed,us,us
+2015-04-04T12:31:05.680Z,-20.1043,-177.6822,524.92,4.5,mb,,116,4.669,0.61,us,us10001txd,2015-06-16T01:00:26.040Z,"282 km WNW of Haveluloto, Tonga",earthquake,6.9,5.5,0.04,183,reviewed,us,us
+2015-04-04T17:48:47.960Z,-6.0735,130.6717,111.53,5.1,mwb,,21,1.996,1.07,us,us10001tzj,2015-06-16T01:00:27.040Z,"235 km WSW of Tual, Indonesia",earthquake,6.4,4.7,0.058,29,reviewed,us,us
+2015-04-05T00:07:49.060Z,12.704,-88.1528,68.39,5.3,mwb,,36,1.094,0.82,us,us10001u1e,2022-07-28T06:16:37.991Z,"55 km S of Intipucá, El Salvador",earthquake,6.1,2.2,0.04,61,reviewed,us,us
+2015-04-05T05:18:06.870Z,-31.8494,57.3506,10,4.5,mb,,67,15.697,0.71,us,us200026dh,2015-06-16T01:00:27.040Z,"Southwest Indian Ridge",earthquake,9.7,1.8,0.135,16,reviewed,us,us
+2015-04-05T05:57:23.000Z,-11.67,-78.05,39,4.6,ml,,,,1.2,us,us20002dq5,2015-06-16T01:00:27.040Z,"78 km SW of Caleta de Carquín, Peru",earthquake,15.7,10.1,,,reviewed,lim,lim
+2015-04-05T06:55:00.550Z,16.073,-98.6383,10,4.9,mb,,148,0.584,1.16,us,us10001u2u,2022-07-28T06:21:15.476Z,"36 km SW of Santiago Tepextla, Mexico",earthquake,4.2,1.8,0.032,310,reviewed,us,us
+2015-04-05T08:32:48.330Z,-41.0258,-90.8082,10,4.7,mb,,81,12.911,0.48,us,us200026di,2015-06-16T01:00:27.040Z,"southeast of Easter Island",earthquake,13.8,1.9,0.09,37,reviewed,us,us
+2015-04-05T08:34:48.720Z,-40.9877,-91.273,10,4.7,mb,,142,13.261,0.6,us,us10001u4w,2015-06-16T01:00:27.040Z,"West Chile Rise",earthquake,6.3,1.9,0.064,74,reviewed,us,us
+2015-04-05T08:35:34.680Z,-5.3912,152.5904,35,5.3,mb,,23,1.265,0.79,us,us10001u30,2015-06-16T01:00:27.040Z,"121 km SSE of Kokopo, Papua New Guinea",earthquake,8,1.9,0.044,169,reviewed,us,us
+2015-04-05T09:47:56.460Z,-2.0433,128.106,48.51,4.8,mb,,63,2.892,0.59,us,us10001u3c,2015-06-16T01:00:28.040Z,"169 km NNW of Amahai, Indonesia",earthquake,7.3,6.3,0.074,56,reviewed,us,us
+2015-04-05T13:00:43.890Z,-9.3061,110.3196,40.25,4.7,mb,,86,1.399,0.77,us,us10001u3t,2015-06-16T01:00:28.040Z,"149 km S of Pundong, Indonesia",earthquake,7.6,3.4,0.073,56,reviewed,us,us
+2015-04-05T17:27:54.280Z,-0.8478,120.3717,36.94,4.5,mb,,77,1.988,1.15,us,us10001u4r,2015-06-16T01:00:28.040Z,"56 km E of Palu, Indonesia",earthquake,6.3,6.7,0.164,12,reviewed,us,us
+2015-04-05T18:20:26.590Z,-9.7537,110.5096,32.57,4.5,mb,,171,1.829,1.29,us,us200026e0,2015-06-16T01:00:28.040Z,"200 km S of Pundong, Indonesia",earthquake,12.1,4.7,0.192,8,reviewed,us,us
+2015-04-05T18:21:00.600Z,15.998,-98.673,16.1,4.5,mb,,,,1.45,us,us10001u5d,2015-06-16T01:00:28.040Z,"44 km SSW of Santiago Tepextla, Mexico",earthquake,5.2,5.8,0.118,21,reviewed,unm,us
+2015-04-05T18:29:45.800Z,16.02,-98.703,16,4.7,mb,,,,1.66,us,us10001u5f,2015-06-16T01:00:28.040Z,"44 km SW of Santiago Tepextla, Mexico",earthquake,4.4,5,0.067,68,reviewed,unm,us
+2015-04-05T18:35:47.400Z,-21.1457,-178.5652,555.69,4.8,mb,,133,4.65,1,us,us10001u5g,2015-06-16T01:00:28.040Z,"Fiji region",earthquake,13,7.2,0.058,91,reviewed,us,us
+2015-04-05T20:50:26.400Z,24.0008,121.578,25.2,4.5,mb,,81,0.172,1.14,us,us10001u5w,2015-06-16T01:00:28.040Z,"3 km NW of Hualien City, Taiwan",earthquake,3.5,5.6,0.205,7,reviewed,us,us
+2015-04-05T20:51:39.730Z,-5.5476,152.7221,8,5.5,mwb,,73,1.457,0.97,us,us10001u5v,2022-05-03T17:18:58.100Z,"142 km SSE of Kokopo, Papua New Guinea",earthquake,7.5,1.8,0.045,48,reviewed,us,us
+2015-04-06T03:15:15.940Z,-59.6592,-25.828,78.91,4.5,mb,,112,7.928,1.27,us,us200026f8,2015-06-16T01:00:29.040Z,"South Sandwich Islands region",earthquake,14.3,8,0.131,17,reviewed,us,us
+2015-04-06T04:58:41.170Z,42.959,145.29,31.57,4.6,mb,,82,1.838,0.72,us,us10001u9h,2015-06-16T01:00:29.040Z,"46 km SSW of Nemuro, Japan",earthquake,7.8,4.1,0.053,107,reviewed,us,us
+2015-04-06T06:06:48.190Z,0.6727,-29.4173,10,4.7,mb,,102,9.143,0.78,us,us200026f9,2015-06-16T01:00:29.040Z,"central Mid-Atlantic Ridge",earthquake,6.4,1.9,0.137,16,reviewed,us,us
+2015-04-06T06:56:57.140Z,-5.8076,151.9359,35,4.7,mb,,70,1.621,0.77,us,us10001u9x,2015-06-16T01:00:29.040Z,"166 km SSW of Kokopo, Papua New Guinea",earthquake,11.7,1.9,0.078,50,reviewed,us,us
+2015-04-06T07:41:27.740Z,4.3554,125.9855,157.49,4.5,mb,,143,2.726,1.02,us,us200026fb,2015-06-16T01:00:29.040Z,"129 km SSE of Sarangani, Philippines",earthquake,7.4,11.1,0.15,13,reviewed,us,us
+2015-04-06T07:47:25.630Z,53.1697,108.3185,10,4.6,mb,,49,3.227,0.86,us,us10001ua5,2015-06-16T01:00:29.040Z,"25 km NNE of Turka, Russia",earthquake,7.8,1.8,0.057,93,reviewed,us,us
+2015-04-06T07:52:53.600Z,-8.7281,159.1076,140.8,4.9,mb,,45,1.089,0.88,us,us10001ua6,2015-06-16T01:00:29.040Z,"83 km SW of Buala, Solomon Islands",earthquake,8.7,5.4,0.039,213,reviewed,us,us
+2015-04-06T10:45:37.040Z,-5.0057,153.0233,54.54,4.5,mb,,111,1.178,0.63,us,us200026fe,2015-06-16T01:00:29.040Z,"111 km SE of Kokopo, Papua New Guinea",earthquake,10.6,7.3,0.135,16,reviewed,us,us
+2015-04-06T10:45:41.080Z,-1.4648,-77.5592,186.61,4.5,mb,,140,1.911,0.74,us,us10001ub3,2015-06-16T01:00:29.040Z,"49 km E of Puyo, Ecuador",earthquake,9.6,6.2,0.039,191,reviewed,us,us
+2015-04-06T10:58:31.930Z,1.9057,-96.9549,10,4.9,mb,,89,14.178,0.65,us,us10001ub5,2015-06-16T01:00:29.040Z,"west of the Galapagos Islands",earthquake,9.2,1.9,0.03,344,reviewed,us,us
+2015-04-06T11:37:30.230Z,24.5071,122.6897,85.61,4.6,mb,,53,0.295,0.72,us,us10001ub8,2015-06-16T01:00:29.040Z,"31 km W of Yonakuni, Japan",earthquake,7.2,5.8,0.051,114,reviewed,us,us
+2015-04-06T14:03:53.400Z,15.5732,147.8895,17.82,4.5,mb,,75,2.045,0.82,us,us200026fh,2015-06-16T01:00:29.040Z,"232 km E of Saipan, Northern Mariana Islands",earthquake,9.6,4.3,0.075,52,reviewed,us,us
+2015-04-06T14:06:07.030Z,-15.1637,-173.1813,10,4.7,mb,,241,30.228,0.45,us,us200026fz,2015-06-16T01:00:29.040Z,"109 km NE of Hihifo, Tonga",earthquake,14.5,2,0.246,8,reviewed,us,us
+2015-04-06T16:09:47.930Z,0.2777,125.4963,66.57,4.7,mb,,46,1.933,1.08,us,us10001ud3,2015-06-16T01:00:30.040Z,"130 km SSE of Tondano, Indonesia",earthquake,7.1,1.8,0.071,59,reviewed,us,us
+2015-04-06T16:42:31.550Z,35.2997,27.5841,16.53,4.5,mb,,52,0.424,0.75,us,us10001udq,2015-06-16T01:00:30.040Z,"40 km SE of Karpathos, Greece",earthquake,5.2,4.2,0.069,62,reviewed,us,us
+2015-04-06T17:52:56.640Z,-24.4602,-177.6656,193.31,4.6,mb,,123,4.771,0.91,us,us200026fj,2015-06-16T01:00:30.040Z,"south of the Fiji Islands",earthquake,14.4,7.7,0.085,41,reviewed,us,us
+2015-04-06T20:56:36.270Z,-15.2314,167.4244,113.13,4.7,mb,,97,0.302,0.9,us,us200026fn,2015-06-16T01:00:30.040Z,"42 km NE of Luganville, Vanuatu",earthquake,7.6,5.5,0.112,24,reviewed,us,us
+2015-04-06T23:44:42.530Z,1.5494,67.9765,10,4.5,mb,,92,8.387,1.03,us,us200026fu,2015-06-16T01:00:30.040Z,"Carlsberg Ridge",earthquake,8.1,1.9,0.099,30,reviewed,us,us
+2015-04-07T00:46:21.830Z,-15.1676,-173.2247,30,6.3,mww,,36,1.878,1.07,us,us10001v8k,2022-07-28T06:40:51.944Z,"106 km NE of Hihifo, Tonga",earthquake,7.1,1.7,,,reviewed,us,us
+2015-04-07T04:41:50.850Z,32.8699,83.4081,11.91,4.8,mb,,54,7.32,0.62,us,us10001v9w,2022-05-03T17:19:11.009Z,"western Xizang",earthquake,7.4,4.1,0.06,86,reviewed,us,us
+2015-04-07T08:51:41.150Z,-60.438,-27.2668,39.72,4.5,mb,,72,7.926,0.61,us,us200026pg,2015-06-16T01:00:31.040Z,"South Sandwich Islands region",earthquake,12.4,6.6,0.15,13,reviewed,us,us
+2015-04-07T09:35:21.180Z,3.1164,126.8319,50.06,4.7,mb,,84,2.389,0.97,us,us10001vb3,2015-06-16T01:00:31.040Z,"201 km NW of Tobelo, Indonesia",earthquake,8.4,6.5,0.078,50,reviewed,us,us
+2015-04-07T10:06:00.020Z,-7.1426,156.3809,10,4.5,mb,,102,4.202,1.1,us,us200026pj,2015-06-16T01:00:31.040Z,"117 km NNW of Gizo, Solomon Islands",earthquake,8.6,1.9,0.205,7,reviewed,us,us
+2015-04-07T11:32:09.000Z,-36.175,-72.164,62.7,4.5,mb,,,,0.88,us,us10001vbl,2015-06-16T01:00:31.040Z,"27 km SSE of Cauquenes, Chile",earthquake,5,3.7,0.136,16,reviewed,guc,us
+2015-04-07T13:36:19.600Z,-22.8681,-176.6002,96.45,4.5,mb,,137,7.286,0.5,us,us200026pm,2015-06-16T01:00:31.040Z,"236 km SW of Vaini, Tonga",earthquake,15.9,11,0.131,17,reviewed,us,us
+2015-04-07T14:00:20.320Z,5.4632,-76.5652,89.71,4.5,mb,,57,2.317,0.77,us,us10001vc2,2015-06-16T01:00:31.040Z,"4 km SSW of Lloró, Colombia",earthquake,8.1,7.1,0.093,34,reviewed,us,us
+2015-04-07T14:54:43.870Z,43.166,-126.3541,10,4.5,mb,,161,2.558,0.93,us,us10001vcb,2016-07-22T19:48:14.150Z,"157 km W of Langlois, Oregon",earthquake,5,2,0.091,39,reviewed,us,us
+2015-04-07T16:37:53.010Z,-4.7217,152.5396,62.93,4.7,mb,,83,0.646,0.78,us,us200026pt,2015-06-16T01:00:31.040Z,"51 km SE of Kokopo, Papua New Guinea",earthquake,7.7,5.8,0.093,35,reviewed,us,us
+2015-04-07T20:46:12.100Z,16.3055,145.9189,129.15,4.7,mb,,60,0.202,0.72,us,us200026pz,2015-06-16T01:00:32.040Z,"122 km N of Saipan, Northern Mariana Islands",earthquake,10.3,6.3,0.075,54,reviewed,us,us
+2015-04-07T21:44:35.530Z,24.9383,141.5911,122.39,4.5,mb,,50,2.213,1.22,us,us200024us,2015-06-16T01:00:32.040Z,"Volcano Islands, Japan region",earthquake,10.2,5.7,0.062,76,reviewed,us,us
+2015-04-07T22:42:24.390Z,-1.7277,135.3291,27.54,4.9,mb,,56,3.297,0.69,us,us200024vt,2022-05-03T17:19:16.446Z,"101 km SW of Insrom, Indonesia",earthquake,7.2,3,0.065,73,reviewed,us,us
+2015-04-08T00:39:49.150Z,-56.1221,-60.0469,10,4.5,mb,,91,4.607,0.6,us,us200026yf,2015-06-16T01:00:32.040Z,"Drake Passage",earthquake,4.9,1.9,0.124,19,reviewed,us,us
+2015-04-08T00:45:17.380Z,-57.5213,-25.1553,49.85,4.6,mb,,77,7.148,0.73,us,us200026xl,2015-06-16T01:00:32.040Z,"South Sandwich Islands region",earthquake,9.5,6.4,0.1,30,reviewed,us,us
+2015-04-08T01:43:47.840Z,21.8203,89.5318,17.68,4.6,mb,,71,4.294,0.8,us,us200024wx,2015-06-16T01:00:32.040Z,"60 km SSW of Sarankhola, Bangladesh",earthquake,8.1,4.2,0.082,44,reviewed,us,us
+2015-04-08T03:14:36.480Z,-4.4912,137.7331,57.61,4.5,mb,,116,5.691,1.3,us,us200024xk,2015-06-16T01:00:32.040Z,"Papua, Indonesia",earthquake,8.7,8.4,0.14,15,reviewed,us,us
+2015-04-08T03:27:02.020Z,9.593,57.7045,10,4.5,mb,,149,4.665,0.68,us,us200024xp,2015-06-16T01:00:32.040Z,"Carlsberg Ridge",earthquake,11.6,1.9,0.115,22,reviewed,us,us
+2015-04-08T03:42:12.720Z,-8.908,-109.0432,10,5.1,mb,,51,18.124,0.27,us,us200024xr,2015-06-16T01:00:32.040Z,"central East Pacific Rise",earthquake,12.2,1.8,0.032,311,reviewed,us,us
+2015-04-08T05:56:06.320Z,-6.5495,129.7777,150.36,4.5,mb,,50,2.074,1.02,us,us200024y8,2015-06-16T01:00:32.040Z,"Banda Sea",earthquake,7.7,9,0.127,18,reviewed,us,us
+2015-04-08T08:20:45.400Z,-7.1698,129.7365,104.43,4.7,mb,,44,1.746,0.71,us,us200024yk,2015-06-16T01:00:32.040Z,"Kepulauan Babar, Indonesia",earthquake,7.7,7.4,0.086,41,reviewed,us,us
+2015-04-08T09:47:16.140Z,-13.272,-112.4395,10,4.6,mb,,110,14.088,0.85,us,us200024z8,2015-06-16T01:00:32.040Z,"central East Pacific Rise",earthquake,5.6,1.9,0.055,101,reviewed,us,us
+2015-04-08T13:49:36.850Z,-6.1271,130.42,152.3,4.6,mb,,41,2.039,0.73,us,us20002504,2015-06-16T01:00:33.040Z,"264 km WSW of Tual, Indonesia",earthquake,8.1,7.4,0.098,31,reviewed,us,us
+2015-04-08T13:52:04.870Z,15.9963,-98.4766,10,4.5,mb,,182,0.517,0.99,us,us20002506,2015-06-16T01:00:33.040Z,"38 km S of Santiago Tepextla, Mexico",earthquake,5.3,1.9,0.05,115,reviewed,us,us
+2015-04-08T13:58:16.210Z,-58.1135,-139.7589,15.23,4.6,mb,,94,32.043,0.77,us,us200026y1,2015-06-16T01:00:33.040Z,"Pacific-Antarctic Ridge",earthquake,15.6,4.1,0.158,13,reviewed,us,us
+2015-04-08T14:04:28.390Z,42.1007,142.7778,50.78,4.5,mb,,82,0.295,0.68,us,us200026y2,2015-06-16T01:00:33.040Z,"42 km SE of Shizunai-furukawach?, Japan",earthquake,5.1,3.5,0.145,14,reviewed,us,us
+2015-04-08T15:44:45.140Z,13.1992,-89.7846,29,5.4,mww,,67,0.724,1.11,us,us20002515,2022-07-28T06:59:51.660Z,"43 km S of Acajutla, El Salvador",earthquake,5.8,1.8,,,reviewed,us,us
+2015-04-08T18:04:43.430Z,23.3549,142.8048,38.57,5,mb,,48,3.766,0.61,us,us2000252f,2015-06-16T01:00:33.040Z,"Volcano Islands, Japan region",earthquake,6,5.6,0.042,179,reviewed,us,us
+2015-04-08T19:22:23.680Z,-56.1647,-24.452,40.43,4.8,mb,,83,7.138,0.99,us,us20002537,2015-06-16T01:00:33.040Z,"South Sandwich Islands region",earthquake,12.5,4.8,0.093,36,reviewed,us,us
+2015-04-08T20:28:05.870Z,-5.5852,146.4813,39.52,4.6,mb,,67,3.627,0.78,us,us2000255b,2015-06-16T01:00:33.040Z,"86 km ESE of Madang, Papua New Guinea",earthquake,6.7,6.9,0.069,64,reviewed,us,us
+2015-04-08T22:42:50.400Z,1.7485,126.2834,44.82,4.7,mb,,97,1.454,0.69,us,us2000256v,2015-06-16T01:00:34.040Z,"148 km E of Laikit, Laikit II (Dimembe), Indonesia",earthquake,7.1,6.6,0.072,59,reviewed,us,us
+2015-04-09T02:07:37.660Z,51.6647,-175.3147,49.24,4.5,mb,,107,0.596,0.51,us,us2000258h,2023-07-26T14:56:47.374Z,"94 km ESE of Adak, Alaska",earthquake,5,6,0.053,105,reviewed,us,us
+2015-04-09T06:13:58.290Z,-50.4572,114.0725,10,4.8,mb,,123,15.973,0.4,us,us200025ad,2015-06-22T23:18:53.040Z,"western Indian-Antarctic Ridge",earthquake,14.8,1.8,0.111,25,reviewed,us,us
+2015-04-09T08:13:53.660Z,0.2081,126.2208,39.28,4.8,mb,,38,1.275,0.65,us,us200025b7,2015-06-22T23:18:54.040Z,"144 km WSW of Ternate, Indonesia",earthquake,5.7,6.5,0.078,51,reviewed,us,us
+2015-04-09T13:00:19.670Z,15.7803,121.05,35.06,4.6,mb,,135,1.851,0.91,us,us200025ck,2022-07-28T07:08:53.815Z,"2 km NNE of Porais, Philippines",earthquake,12.4,4.1,0.157,12,reviewed,us,us
+2015-04-09T14:12:49.800Z,37.1953,71.83,178.38,4.6,mb,,56,1.004,1.18,us,us200025cv,2015-06-22T23:18:54.040Z,"40 km SE of Khorugh, Tajikistan",earthquake,7.1,6.7,0.073,56,reviewed,us,us
+2015-04-09T18:20:28.500Z,-6.7085,105.3343,35,4.9,mb,,80,9.996,0.71,us,us200025e5,2022-07-28T07:11:42.376Z,"65 km WSW of Labuan, Indonesia",earthquake,9.1,1.9,0.072,60,reviewed,us,us
+2015-04-09T19:04:58.770Z,-43.9133,41.2511,16.54,4.6,mb,,53,7.908,0.87,us,us2000270r,2015-06-22T23:18:54.040Z,"Prince Edward Islands region",earthquake,8.7,3.8,0.132,17,reviewed,us,us
+2015-04-09T22:35:53.900Z,-1.9912,139.2959,35,4.6,mb,,86,1.5,0.7,us,us200025ht,2015-06-22T23:18:54.040Z,"163 km WNW of Abepura, Indonesia",earthquake,5.9,1.9,0.081,46,reviewed,us,us
+2015-04-09T22:49:42.590Z,14.0702,92.8474,27.94,5.1,mb,,19,2.401,0.61,us,us200025i0,2015-06-22T23:18:54.040Z,"262 km N of Bamboo Flat, India",earthquake,5.8,3.1,0.046,153,reviewed,us,us
+2015-04-10T03:12:22.990Z,-10.4897,123.9385,44.01,4.5,mb,,65,0.798,0.75,us,us200025ir,2015-06-22T23:18:55.040Z,"50 km SE of Kupang, Indonesia",earthquake,7.3,3.6,0.132,18,reviewed,us,us
+2015-04-10T03:53:36.200Z,-50.2273,112.532,10,4.6,mb,,144,16.133,0.99,us,us20002797,2015-06-22T23:18:55.040Z,"southeast Indian Ridge",earthquake,15.4,1.9,0.165,11,reviewed,us,us
+2015-04-10T06:10:38.910Z,-41.2324,-88.7518,10,5.3,mwb,,46,12.251,0.65,us,us200025ji,2016-11-10T21:47:04.216Z,"West Chile Rise",earthquake,10.4,1.8,0.052,36,reviewed,us,us
+2015-04-10T06:23:12.000Z,28.355,51.826,9,4.7,mb,,,,0.89,us,us200025jj,2015-06-22T23:18:55.040Z,"90 km SW of F?r?z?b?d, Iran",earthquake,6.7,4,0.077,51,reviewed,teh,us
+2015-04-10T06:56:27.380Z,2.5578,124.5292,300.36,4.7,mb,,47,3.345,1.13,us,us200025jn,2015-06-22T23:18:55.040Z,"124 km NNW of Manado, Indonesia",earthquake,7.7,6.5,0.092,36,reviewed,us,us
+2015-04-10T08:24:34.540Z,-5.6732,153.2271,10,5.2,mb,,72,1.813,0.85,us,us200025k0,2015-06-22T23:18:55.040Z,"181 km SE of Kokopo, Papua New Guinea",earthquake,4.4,1.8,0.072,64,reviewed,us,us
+2015-04-10T09:15:20.690Z,12.8633,146.1427,10,4.7,mb,,70,1.435,0.79,us,us200025kb,2015-06-22T23:18:55.040Z,"154 km ESE of Yigo Village, Guam",earthquake,7,1.8,0.065,72,reviewed,us,us
+2015-04-10T09:19:56.020Z,33.394,81.0836,10,4.5,mb,,87,6.532,1.24,us,us2000279j,2015-06-22T23:18:55.040Z,"western Xizang",earthquake,7.2,1.9,0.102,28,reviewed,us,us
+2015-04-10T09:42:24.080Z,-4.488,138.2209,35,4.7,mb,,68,3.16,1.3,us,us200025kd,2015-06-22T23:18:55.040Z,"Papua, Indonesia",earthquake,7.5,2,0.097,32,reviewed,us,us
+2015-04-10T09:52:43.320Z,10.991,125.3302,110.89,4.5,mb,,97,8.893,0.74,us,us200025kf,2015-06-22T23:18:55.040Z,"14 km SSW of Balangiga, Philippines",earthquake,11.2,7.3,0.111,24,reviewed,us,us
+2015-04-10T11:56:10.490Z,52.9702,159.8797,61.01,4.9,mb,,89,0.745,0.85,us,us200025kn,2022-07-28T07:15:21.550Z,"82 km E of Petropavlovsk-Kamchatsky, Russia",earthquake,7.5,5,0.028,394,reviewed,us,us
+2015-04-10T12:29:40.590Z,-62.0287,-161.86,10,4.6,mb,,137,18.716,0.63,us,us2000279f,2015-06-22T23:18:55.040Z,"Pacific-Antarctic Ridge",earthquake,11.3,1.9,0.146,14,reviewed,us,us
+2015-04-10T16:23:04.080Z,-13.7935,65.858,10,5.7,mww,,39,9.066,0.87,us,us200025ml,2022-05-03T18:23:52.240Z,"Mid-Indian Ridge",earthquake,8.9,1.7,,,reviewed,us,us
+2015-04-10T18:59:38.760Z,40.418,-126.1568,19.88,4.7,mwr,,199,1.532,0.86,us,us200025qi,2020-05-02T03:33:43.678Z,"161 km W of Ferndale, California",earthquake,5.6,5.5,0.065,23,reviewed,us,us
+2015-04-10T22:46:58.370Z,-22.5413,-176.1277,81.05,4.6,mb,,89,6.746,1.04,us,us2000279w,2015-06-22T23:18:56.040Z,"178 km SSW of Vaini, Tonga",earthquake,10.4,6.5,0.089,37,reviewed,us,us
+2015-04-10T22:54:50.160Z,-7.5836,127.5929,159.76,4.7,mb,,28,3.693,1.03,us,us200025sf,2015-06-22T23:18:56.040Z,"122 km NNE of Lospalos, Timor Leste",earthquake,7.2,4.9,0.07,61,reviewed,us,us
+2015-04-11T01:33:10.990Z,-14.7502,167.9102,10,4.5,mb,,163,0.972,0.99,us,us200027ax,2015-06-22T23:18:56.040Z,"Vanuatu",earthquake,4,1.9,0.151,13,reviewed,us,us
+2015-04-11T03:59:54.070Z,52.1037,153.101,436.29,4.7,mb,,90,2.978,0.78,us,us200025t4,2015-06-22T23:18:56.040Z,"244 km WNW of Ozernovskiy, Russia",earthquake,9.5,5.2,0.028,394,reviewed,us,us
+2015-04-11T04:29:02.740Z,6.3864,-73.1375,51.04,4.5,mb,,58,1.932,0.58,us,us200025t7,2022-07-28T07:24:08.473Z,"4 km SE of Páramo, Colombia",earthquake,7.6,6.4,0.051,112,reviewed,us,us
+2015-04-11T05:00:42.480Z,2.1173,126.6945,50,5.5,mwb,,24,1.495,1,us,us200025t9,2022-05-03T17:19:22.080Z,"152 km WNW of Tobelo, Indonesia",earthquake,6.5,1.8,0.043,53,reviewed,us,us
+2015-04-11T05:21:10.630Z,2.008,126.621,65.77,4.9,mb,,89,1.436,0.82,us,us200025tb,2015-06-22T23:18:56.040Z,"157 km WNW of Tobelo, Indonesia",earthquake,4.2,7.1,0.068,68,reviewed,us,us
+2015-04-11T07:45:12.780Z,41.0836,142.8632,40.31,4.6,mb,,134,0.956,1.03,us,us200025tq,2015-06-22T23:18:56.040Z,"131 km ENE of Misawa, Japan",earthquake,6.1,4.2,0.072,58,reviewed,us,us
+2015-04-11T10:07:23.420Z,-15.6948,-172.8497,10,4.6,mb,,85,4.369,0.73,us,us200025tw,2015-06-22T23:18:56.040Z,"105 km ENE of Hihifo, Tonga",earthquake,10,1.8,0.053,105,reviewed,us,us
+2015-04-11T11:42:52.270Z,4.7689,124.9262,281,5.2,mwb,,17,2.376,0.86,us,us200025u4,2015-06-22T23:18:56.040Z,"92 km SW of Sarangani, Philippines",earthquake,7,1.9,0.062,25,reviewed,us,us
+2015-04-11T12:44:37.010Z,-6.6535,104.3352,35,5.1,mb,,113,3.568,1.05,us,us200025u9,2015-06-22T23:18:56.040Z,"168 km W of Labuan, Indonesia",earthquake,7.3,1.8,0.057,98,reviewed,us,us
+2015-04-11T17:18:43.650Z,-6.4832,146.9926,59.08,4.8,mb,,41,2.907,1.13,us,us200025um,2015-06-22T23:18:57.040Z,"26 km N of Lae, Papua New Guinea",earthquake,8.1,7.4,0.084,44,reviewed,us,us
+2015-04-12T00:45:29.330Z,-18.5781,-174.2914,34.72,5.1,mb,,77,4.163,0.59,us,us200025vw,2022-07-28T07:28:42.482Z,"33 km WNW of Neiafu, Tonga",earthquake,10.4,3.7,0.058,97,reviewed,us,us
+2015-04-12T02:49:30.290Z,25.099,128.2968,10,4.6,mb,,84,1.729,0.91,us,us200025w9,2015-06-22T23:18:57.040Z,"130 km SSE of Itoman, Japan",earthquake,7.6,1.9,0.079,48,reviewed,us,us
+2015-04-12T06:25:15.270Z,36.417,138.8046,147.38,4.6,mb,,66,0.495,0.65,us,us200025wj,2022-07-28T07:29:33.412Z,"12 km NW of Annaka, Japan",earthquake,5.5,3.4,0.053,107,reviewed,us,us
+2015-04-12T06:55:04.020Z,-28.3003,-67.3667,118.91,4.6,mb,,100,2.14,0.76,us,us200025wk,2015-06-22T23:18:57.040Z,"32 km SE of Tinogasta, Argentina",earthquake,5.8,6.5,0.077,50,reviewed,us,us
+2015-04-12T07:28:12.000Z,-32.989,-67.618,178,4.7,mb,,,,0.7,us,us200025wp,2022-07-28T07:31:21.766Z,"80 km E of San Martín, Argentina",earthquake,8.2,4.6,0.048,131,reviewed,sja,us
+2015-04-12T08:09:52.380Z,-60.8658,-42.4218,15.08,4.6,mb,,76,7.327,0.87,us,us200027c8,2015-06-22T23:18:57.040Z,"Scotia Sea",earthquake,12.2,1.4,0.151,15,reviewed,us,us
+2015-04-12T09:01:21.560Z,-15.1061,-173.5764,10,4.5,mb,,61,2.109,0.62,us,us200025x5,2015-06-22T23:18:57.040Z,"96 km NNE of Hihifo, Tonga",earthquake,8,1.8,0.085,49,reviewed,us,us
+2015-04-12T14:05:18.260Z,-5.4729,153.0575,46.63,4.5,mb,,86,1.553,1.01,us,us200027ce,2015-06-22T23:18:58.040Z,"152 km SE of Kokopo, Papua New Guinea",earthquake,7.4,3.3,0.124,19,reviewed,us,us
+2015-04-12T16:48:16.390Z,27.3415,52.9509,10,4.9,mb,,48,3.774,0.65,us,us200025y5,2015-06-22T23:18:58.040Z,"24 km SSE of Mohr, Iran",earthquake,6.7,1.8,0.045,156,reviewed,us,us
+2015-04-12T17:35:33.740Z,-18.3712,-172.8394,34.6,4.8,mb,,92,2.847,0.89,us,us200025yc,2015-06-22T23:18:58.040Z,"124 km ENE of Neiafu, Tonga",earthquake,7.6,6.1,0.107,27,reviewed,us,us
+2015-04-12T19:13:54.550Z,-5.6102,147.7473,208.71,4.5,mb,,139,3.814,1.24,us,us200027cn,2015-06-22T23:18:58.040Z,"105 km N of Finschhafen, Papua New Guinea",earthquake,14.2,9.7,0.135,16,reviewed,us,us
+2015-04-12T19:25:01.770Z,37.1545,143.8447,10,5.1,mwb,,37,2.531,0.87,us,us200025yw,2015-06-22T23:18:58.040Z,"254 km E of Namie, Japan",earthquake,7.4,1.7,0.051,37,reviewed,us,us
+2015-04-12T20:45:01.470Z,13.7221,145.3906,102.2,4.6,mb,,68,0.524,0.68,us,us200025z0,2022-07-28T07:35:01.719Z,"58 km ENE of Yigo Village, Guam",earthquake,9.1,6.3,0.08,46,reviewed,us,us
+2015-04-13T01:29:16.640Z,-6.8028,128.1514,289.23,4.5,mb,,107,3.334,0.73,us,us20002820,2015-06-22T23:18:59.040Z,"228 km NNE of Lospalos, Timor Leste",earthquake,10,7.8,0.243,5,reviewed,us,us
+2015-04-13T02:24:28.010Z,-55.3272,-28.0763,19.11,4.6,mb,,75,4.977,0.86,us,us20002829,2015-06-22T23:18:59.040Z,"South Sandwich Islands region",earthquake,8.9,4.7,0.107,26,reviewed,us,us
+2015-04-13T03:00:09.170Z,-40.0997,-73.6763,40,4.5,mwr,,140,1.26,1.45,us,us2000261h,2022-07-28T07:44:13.153Z,"Near the coast of Los Lagos, Chile",earthquake,5.7,1.7,0.078,16,reviewed,us,us
+2015-04-13T03:26:36.810Z,-5.7141,153.0064,33.58,4.5,mb,,91,1.73,0.82,us,us2000263t,2015-06-22T23:18:59.040Z,"172 km SSE of Kokopo, Papua New Guinea",earthquake,10.6,5.2,0.145,14,reviewed,us,us
+2015-04-13T03:53:51.250Z,17.2278,-121.8784,10,4.7,mb,,124,12.804,0.74,us,us2000261q,2015-06-22T23:18:59.040Z,"North Pacific Ocean",earthquake,12.7,1.8,0.036,235,reviewed,us,us
+2015-04-13T04:43:30.910Z,-2.254,-12.7335,10,4.7,mb,,70,5.805,1.06,us,us20002626,2015-06-22T23:18:59.040Z,"north of Ascension Island",earthquake,4.2,1.9,0.104,28,reviewed,us,us
+2015-04-13T06:25:00.470Z,-18.0342,-17.3207,10,4.7,mb,,66,10.446,0.81,us,us20002629,2015-06-22T23:18:59.040Z,"southern Mid-Atlantic Ridge",earthquake,11.7,1.8,0.094,34,reviewed,us,us
+2015-04-13T07:40:22.880Z,-5.7719,149.5527,155.79,4.8,mb,,77,3.038,1.12,us,us2000262f,2015-06-22T23:18:59.040Z,"48 km N of Kandrian, Papua New Guinea",earthquake,7.5,6.5,0.093,36,reviewed,us,us
+2015-04-13T09:27:05.420Z,36.5648,71.2159,113.41,4.7,mb,,71,0.759,1.2,us,us2000262s,2015-06-22T23:18:59.040Z,"31 km WSW of Ashk?sham, Afghanistan",earthquake,7.1,5.5,0.054,104,reviewed,us,us
+2015-04-13T10:28:45.300Z,24.0083,102.9801,10,4.7,mb,,74,1.131,0.89,us,us20002630,2015-06-22T23:18:59.040Z,"47 km NW of Kaiyuan, China",earthquake,3.4,1.8,0.071,61,reviewed,us,us
+2015-04-13T11:15:54.000Z,-0.0334,123.4196,149.95,4.5,mb,,50,1.192,0.61,us,us20002634,2015-06-22T23:19:00.040Z,"74 km SSE of Gorontalo, Indonesia",earthquake,6.4,5.3,0.076,52,reviewed,us,us
+2015-04-13T13:37:35.240Z,-4.6872,152.9866,50,5.3,mwb,,22,0.957,0.55,us,us2000263s,2022-05-03T18:23:53.355Z,"88 km ESE of Kokopo, Papua New Guinea",earthquake,6.6,1.8,0.05,39,reviewed,us,us
+2015-04-13T13:40:07.490Z,-5.4379,152.7372,38.37,4.6,mb,,195,1.364,0.96,us,us2000282l,2015-06-22T23:19:00.040Z,"131 km SSE of Kokopo, Papua New Guinea",earthquake,13.4,10.4,0.273,4,reviewed,us,us
+2015-04-13T14:32:28.030Z,-8.528,-80.3188,27.33,4.9,mb,,93,2.356,0.86,us,us2000264c,2022-07-28T07:49:27.697Z,"134 km WSW of Santiago de Cao, Peru",earthquake,11.8,4.6,0.122,21,reviewed,us,us
+2015-04-13T14:37:50.200Z,30.7754,141.6452,17.41,4.7,mb,,64,2.804,0.61,us,us2000264f,2015-06-22T23:19:00.040Z,"Izu Islands, Japan region",earthquake,7.3,4.3,0.059,86,reviewed,us,us
+2015-04-13T15:05:45.160Z,1.7239,126.291,32.67,4.6,mb,,83,1.432,0.91,us,us2000264m,2015-06-22T23:19:00.040Z,"148 km E of Laikit, Laikit II (Dimembe), Indonesia",earthquake,6.8,4.2,0.078,50,reviewed,us,us
+2015-04-13T17:13:57.400Z,23.92,121.1,8.6,4.5,mb,,,,1.11,us,us2000266k,2022-07-28T07:50:24.855Z,"14 km ESE of Puli, Taiwan",earthquake,4.6,3.9,0.075,52,reviewed,tap,us
+2015-04-13T18:51:03.650Z,39.7083,143.6824,10,4.9,mb,,97,2.338,0.95,us,us2000267d,2015-06-22T23:19:00.040Z,"off the east coast of Honshu, Japan",earthquake,7.4,1.8,0.036,244,reviewed,us,us
+2015-04-13T20:21:25.000Z,-41.0154,43.4253,10,4.7,mb,,53,19.335,0.66,us,us2000268l,2015-06-22T23:19:00.040Z,"Prince Edward Islands region",earthquake,13.2,1.8,0.099,31,reviewed,us,us
+2015-04-13T21:40:48.530Z,-17.4652,-178.5647,551.87,4.7,mb,,78,3.238,0.96,us,us2000269c,2015-06-22T23:19:00.040Z,"234 km ENE of Levuka, Fiji",earthquake,11.5,6.7,0.068,67,reviewed,us,us
+2015-04-13T22:16:20.230Z,-21.0794,-68.6264,122,5.2,mww,,27,0.805,1.24,us,us2000269j,2022-07-28T07:52:15.815Z,"155 km NNE of Calama, Chile",earthquake,4.8,1.8,,,reviewed,us,us
+2015-04-14T00:24:05.750Z,-38.0707,178.7636,10,4.5,mb,,252,0.623,0.68,us,us20002832,2015-06-22T23:19:00.040Z,"92 km NE of Gisborne, New Zealand",earthquake,6.9,2,0.172,10,reviewed,us,us
+2015-04-14T07:38:54.520Z,-61.1058,-36.165,10,5.1,mb,,92,6.844,0.59,us,us200026cj,2015-06-22T23:19:01.040Z,"Scotia Sea",earthquake,9.6,1.7,0.086,44,reviewed,us,us
+2015-04-14T08:00:02.700Z,34.43,26.67,9,4.8,mb,,,,0.83,us,us200026cm,2015-06-22T23:19:01.040Z,"93 km SSE of Palekastro, Greece",earthquake,7.7,4.7,0.045,153,reviewed,ath,us
+2015-04-14T08:13:55.330Z,-15.1965,-173.3499,8,5.6,mwb,,32,5.058,0.72,us,us200026cn,2022-05-03T18:23:54.594Z,"96 km NNE of Hihifo, Tonga",earthquake,8.2,1.7,0.038,67,reviewed,us,us
+2015-04-14T09:13:42.700Z,4.4012,-32.5479,10,4.7,mb,,109,10.697,0.79,us,us200026cr,2015-06-22T23:19:01.040Z,"central Mid-Atlantic Ridge",earthquake,11.1,1.9,0.06,83,reviewed,us,us
+2015-04-14T10:55:38.440Z,-5.5929,153.1152,10,4.9,mb,,56,1.684,0.69,us,us200026cx,2015-06-22T23:19:01.040Z,"167 km SE of Kokopo, Papua New Guinea",earthquake,7.6,1.8,0.082,46,reviewed,us,us
+2015-04-14T11:04:29.430Z,11.7894,44.0601,10,4.6,mb,,124,1.216,1.17,us,us200026cz,2015-06-22T23:19:01.040Z,"86 km ESE of Obock, Djibouti",earthquake,5.4,1.9,0.081,45,reviewed,us,us
+2015-04-14T13:04:27.920Z,19.2212,121.1407,32.59,4.5,mb,,93,1.783,0.81,us,us200026eh,2015-06-22T23:19:01.040Z,"67 km N of Namuac, Philippines",earthquake,7.6,4.7,0.065,71,reviewed,us,us
+2015-04-14T13:25:35.580Z,-25.0538,179.689,495.88,4.5,mb,,72,7.43,0.85,us,us200026ek,2015-06-22T23:19:01.040Z,"south of the Fiji Islands",earthquake,12.1,7.2,0.083,43,reviewed,us,us
+2015-04-14T16:15:36.870Z,12.53,125.5133,37.71,4.5,mb,,109,22.174,0.71,us,us2000283k,2015-06-22T23:19:01.040Z,"25 km ENE of Anito, Philippines",earthquake,13.1,7.1,0.106,26,reviewed,us,us
+2015-04-14T19:41:28.920Z,48.0713,152.5524,157.61,4.6,mb,,105,6.012,0.79,us,us200026i7,2015-06-22T23:19:01.040Z,"Kuril Islands",earthquake,9,5.8,0.045,147,reviewed,us,us
+2015-04-14T19:49:07.970Z,-34.4269,-179.1366,10,4.5,mb,,146,3.753,0.8,us,us2000283l,2015-06-22T23:19:01.040Z,"south of the Kermadec Islands",earthquake,11.4,1.9,0.14,16,reviewed,us,us
+2015-04-14T23:41:29.450Z,-7.3778,128.6865,133.73,5,mb,,30,2.657,0.97,us,us200026l4,2015-06-22T23:19:02.040Z,"225 km NE of Lospalos, Timor Leste",earthquake,6.8,4.5,0.061,86,reviewed,us,us
+2015-04-15T03:56:37.330Z,3.4075,125.7052,162.82,4.6,mb,,129,3.1,0.61,us,us2000284i,2015-06-22T23:19:02.040Z,"Pulau-Pulau Sangihe, Indonesia",earthquake,9.6,9.8,0.141,15,reviewed,us,us
+2015-04-15T04:09:37.080Z,-7.5251,127.5928,168.23,4.5,mb,,68,3.965,0.92,us,us20002844,2015-06-22T23:19:02.040Z,"Kepulauan Barat Daya, Indonesia",earthquake,8.2,8.8,0.163,11,reviewed,us,us
+2015-04-15T04:45:01.440Z,-6.3723,148.3882,70.64,4.8,mb,,67,3.249,0.36,us,us200026m3,2015-06-22T23:19:02.040Z,"63 km ENE of Finschhafen, Papua New Guinea",earthquake,7,6.3,0.102,30,reviewed,us,us
+2015-04-15T05:09:48.840Z,-11.8406,166.6382,162.52,4.6,mb,,137,3.626,0.6,us,us20002845,2015-06-22T23:19:02.040Z,"153 km SE of Lata, Solomon Islands",earthquake,11.2,7.4,0.111,26,reviewed,us,us
+2015-04-15T06:59:17.430Z,-14.522,-76.1712,10,4.9,mb,,99,2.602,1.27,us,us200026ml,2022-05-03T17:19:28.942Z,"62 km SW of Santiago, Peru",earthquake,7.9,1.8,0.058,95,reviewed,us,us
+2015-04-15T07:08:37.570Z,35.386,104.0004,13.1,4.5,mb,,38,4.274,0.59,us,us200026mm,2022-07-28T08:07:38.124Z,"75 km S of Lanzhou, China",earthquake,8.6,5,0.093,34,reviewed,us,us
+2015-04-15T07:39:27.210Z,39.7528,106.4034,10,5.4,mww,,20,6.056,0.94,us,us200026mr,2022-07-28T08:09:23.808Z,"36 km WNW of Wuhai, China",earthquake,7,1.8,,,reviewed,us,us
+2015-04-15T08:25:11.630Z,34.8078,32.3311,10,5.3,mww,,46,0.836,1.09,us,us200026mv,2022-07-28T08:10:17.364Z,"6 km WSW of Kissonerga, Cyprus",earthquake,6.2,1.7,,,reviewed,us,us
+2015-04-15T08:52:29.140Z,-58.869,-24.8287,10,4.7,mb,,127,7.905,1,us,us2000284c,2015-06-22T23:19:02.040Z,"South Sandwich Islands region",earthquake,13,1.9,0.097,35,reviewed,us,us
+2015-04-15T09:15:57.810Z,-58.9201,-24.832,10,4.6,mb,,127,15.597,0.42,us,us2000284e,2015-06-22T23:19:02.040Z,"South Sandwich Islands region",earthquake,10.2,1.9,0.126,19,reviewed,us,us
+2015-04-15T10:22:07.650Z,-3.7948,151.6717,10,5.4,mwb,,63,0.629,0.74,us,us200026n9,2022-05-03T17:19:34.281Z,"70 km NW of Rabaul, Papua New Guinea",earthquake,3.7,1.8,0.044,50,reviewed,us,us
+2015-04-15T11:11:49.980Z,48.2458,153.7265,109.38,4.7,mb,,89,5.483,0.6,us,us200026nc,2015-06-22T23:19:02.040Z,"Kuril Islands",earthquake,9,5.9,0.042,170,reviewed,us,us
+2015-04-15T13:27:07.340Z,-58.8247,-24.7488,10,4.8,mb,,75,7.918,0.79,us,us200026w2,2015-06-22T23:19:02.040Z,"South Sandwich Islands region",earthquake,9.9,1.8,0.097,33,reviewed,us,us
+2015-04-15T16:57:03.310Z,38.9673,15.3841,253.38,4.5,mb,,35,0.811,0.75,us,us200026r2,2015-06-22T23:19:03.040Z,"53 km NW of Santa Domenica, Italy",earthquake,6.5,5.7,0.045,144,reviewed,us,us
+2015-04-15T19:55:00.590Z,39.3928,143.5274,10,5.1,mb,,86,2.629,0.82,us,us200026su,2022-07-28T08:14:49.898Z,"136 km E of Yamada, Japan",earthquake,7.7,1.8,0.039,219,reviewed,us,us
+2015-04-16T02:24:16.130Z,10.8339,-62.4104,77.29,5.1,mb,,32,1.488,0.58,us,us200026w5,2022-07-28T08:17:40.770Z,"30 km NNW of Güiria, Venezuela",earthquake,7.1,4.4,0.024,549,reviewed,us,us
+2015-04-16T05:11:08.320Z,-27.2733,-177.2666,100.98,4.5,mb,,138,10.421,0.25,us,us200028cq,2015-06-26T23:15:53.040Z,"Kermadec Islands region",earthquake,12.4,8.9,0.156,14,reviewed,us,us
+2015-04-16T07:38:49.810Z,36.6501,140.9575,41.9,4.5,mb,,128,0.746,1.14,us,us200026xe,2022-07-28T08:19:35.319Z,"22 km ESE of Takahagi, Japan",earthquake,5.6,7,0.099,30,reviewed,us,us
+2015-04-16T09:48:17.570Z,-5.4424,152.5589,41.24,4.5,mb,,159,1.303,1.09,us,us200026yj,2015-06-26T23:15:53.040Z,"125 km SSE of Kokopo, Papua New Guinea",earthquake,6.6,8.8,0.118,25,reviewed,us,us
+2015-04-16T15:33:26.670Z,-65.2487,178.2872,9.06,4.6,mb,,197,13.13,0.74,us,us200028d5,2015-06-26T23:15:53.040Z,"Balleny Islands region",earthquake,16.1,6.9,0.183,9,reviewed,us,us
+2015-04-16T18:05:55.110Z,-24.1546,-66.8331,175,4.9,mb,,55,2.449,0.87,us,us20002729,2015-06-26T23:15:53.040Z,"52 km W of San Antonio de los Cobres, Argentina",earthquake,4.1,8.6,0.117,23,reviewed,us,us
+2015-04-16T18:07:43.610Z,35.1891,26.8235,20,6,mww,,25,0.451,0.83,us,us2000272b,2022-07-30T23:31:19.684Z,"26 km SSW of Fry, Greece",earthquake,6,1.7,,,reviewed,us,us
+2015-04-16T18:52:35.100Z,35.1105,26.794,10,4.8,mb,,56,0.529,1.06,us,us2000272w,2015-06-26T23:15:54.040Z,"35 km SSW of Fry, Greece",earthquake,4.9,1.8,0.049,129,reviewed,us,us
+2015-04-16T19:02:12.040Z,35.0647,26.8768,10,5,mb,,51,0.534,0.94,us,us20002732,2022-05-03T17:19:39.051Z,"39 km S of Fry, Greece",earthquake,6.4,1.8,0.037,236,reviewed,us,us
+2015-04-16T20:27:56.110Z,-13.2308,167.0696,223.04,4.5,mb,,144,8.812,0.69,us,us200028db,2015-06-26T23:15:54.040Z,"88 km NW of Sola, Vanuatu",earthquake,15,3.5,0.14,15,reviewed,us,us
+2015-04-16T20:36:25.410Z,30.3994,142.832,28.66,4.6,mb,,59,3.34,0.72,us,us2000274l,2015-06-26T23:15:54.040Z,"Izu Islands, Japan region",earthquake,8,4.3,0.051,113,reviewed,us,us
+2015-04-16T22:05:49.650Z,26.7924,92.7714,35,4.8,mb,,48,1.471,0.64,us,us20002763,2022-07-30T23:34:06.008Z,"11 km ESE of Rang?p?ra, India",earthquake,7.5,1.9,0.045,152,reviewed,us,us
+2015-04-16T23:27:24.570Z,-59.784,-27.6085,153.14,4.8,mb,,82,15.498,0.93,us,us2000276t,2015-06-26T23:15:54.040Z,"South Sandwich Islands region",earthquake,12.1,6,0.067,68,reviewed,us,us
+2015-04-17T01:51:33.700Z,25.0365,128.8538,10,5.2,mb,,53,1.866,0.76,us,us2000277h,2015-06-26T23:15:54.040Z,"169 km SE of Itoman, Japan",earthquake,6.4,1.8,0.038,222,reviewed,us,us
+2015-04-17T02:05:40.330Z,35.0337,26.7848,15.38,5.3,mww,,49,0.597,0.83,us,us2000277l,2022-07-30T23:38:58.948Z,"44 km SSW of Fry, Greece",earthquake,3.9,2.5,,,reviewed,us,us
+2015-04-17T07:04:58.080Z,10.6766,125.8968,99.93,4.5,mb,,108,3.597,1.23,us,us200028kt,2015-06-26T23:15:54.040Z,"29 km SSE of Sulangan, Philippines",earthquake,9.6,6.2,0.096,32,reviewed,us,us
+2015-04-17T09:07:04.470Z,8.5094,-39.5294,10,4.7,mb,,75,14.694,0.97,us,us200028kx,2015-06-26T23:15:54.040Z,"central Mid-Atlantic Ridge",earthquake,9.9,1.9,0.108,26,reviewed,us,us
+2015-04-17T09:19:31.790Z,-15.9701,-178.8458,10,4.7,mb,,106,3.454,0.94,us,us2000278t,2022-05-03T17:19:46.126Z,"198 km ENE of Labasa, Fiji",earthquake,6.1,1.8,0.084,43,reviewed,us,us
+2015-04-17T12:05:50.430Z,-19.8466,169.2934,10,4.5,mb,,113,3.463,1.08,us,us200028l0,2015-06-26T23:15:55.040Z,"33 km S of Isangel, Vanuatu",earthquake,10.5,1.8,0.205,7,reviewed,us,us
+2015-04-17T13:28:27.150Z,-34.8437,-179.2228,43.13,4.6,mb,,194,3.369,0.76,us,us200028l2,2015-06-26T23:15:55.040Z,"south of the Kermadec Islands",earthquake,12.6,8.3,0.157,12,reviewed,us,us
+2015-04-17T15:52:51.480Z,-15.8815,-178.6005,10,6.5,mww,,42,3.702,1.07,us,us200027c2,2022-05-03T18:24:03.515Z,"181 km SSW of Alo, Wallis and Futuna",earthquake,4.4,1.8,,,reviewed,us,us
+2015-04-17T16:53:36.040Z,-61.0633,-23.2921,35,4.9,mb,,53,9.79,0.87,us,us200027dc,2015-06-26T23:15:55.040Z,"South Sandwich Islands region",earthquake,10.6,1.5,0.108,32,reviewed,us,us
+2015-04-17T18:08:29.900Z,-60.8478,-26.1092,27.94,4.5,mb,,82,14.2,0.71,us,us200028ls,2015-06-26T23:15:55.040Z,"South Sandwich Islands region",earthquake,15.4,5.8,0.204,7,reviewed,us,us
+2015-04-17T21:52:53.370Z,-25.2579,-176.2785,35,4.9,mb,,54,4.234,1.08,us,us200027gb,2015-06-26T23:15:55.040Z,"south of the Fiji Islands",earthquake,8.2,1.9,0.074,57,reviewed,us,us
+2015-04-17T23:23:32.690Z,-13.8457,-173.9084,10,4.6,mb,,120,2.07,0.44,us,us200028lj,2015-06-26T23:15:55.040Z,"142 km WSW of Asau, Samoa",earthquake,10,2,0.173,10,reviewed,us,us
+2015-04-18T02:41:04.410Z,-30.122,-178.4678,144.35,4.9,mb,,63,0.991,1.11,us,us200027hv,2015-06-26T23:15:55.040Z,"Kermadec Islands, New Zealand",earthquake,10,4,0.093,36,reviewed,us,us
+2015-04-18T05:01:13.230Z,43.3421,147.3263,59.74,4.5,mb,,136,3.347,0.7,us,us200027i6,2015-06-26T23:15:55.040Z,"70 km SE of Shikotan, Russia",earthquake,9.5,6.9,0.106,26,reviewed,us,us
+2015-04-18T06:40:58.000Z,-9.6483,106.8492,10,4.5,mb,,67,1.44,0.61,us,us200027ij,2015-06-26T23:15:55.040Z,"278 km SSW of Banjar, Indonesia",earthquake,6.7,1.8,0.102,28,reviewed,us,us
+2015-04-18T06:46:20.430Z,-5.2731,68.923,10,4.5,mb,,112,4.101,0.77,us,us200028tu,2015-06-26T23:15:55.040Z,"Chagos Archipelago region",earthquake,12.8,1.9,0.116,22,reviewed,us,us
+2015-04-18T09:08:41.690Z,8.0652,-37.9033,10,4.9,mb,,46,13.944,0.62,us,us200027is,2015-06-26T23:15:56.040Z,"central Mid-Atlantic Ridge",earthquake,10.3,1.9,0.035,253,reviewed,us,us
+2015-04-18T09:34:54.260Z,31.9061,132.0243,35,4.5,mb,,38,1.396,0.75,us,us200027it,2015-06-26T23:15:56.040Z,"southeast of Shikoku, Japan",earthquake,5.1,1.8,0.082,44,reviewed,us,us
+2015-04-18T10:04:59.210Z,1.1717,-102.7341,10,4.5,mb,,114,16.796,0.8,us,us200027iu,2015-06-26T23:15:56.040Z,"Galapagos Triple Junction region",earthquake,9.3,1.9,0.045,149,reviewed,us,us
+2015-04-18T11:16:05.320Z,-34.8742,179.7614,45.48,5.4,mb,,61,2.929,0.78,us,us200027iv,2015-06-26T23:15:56.040Z,"south of the Kermadec Islands",earthquake,7.7,3.9,0.06,93,reviewed,us,us
+2015-04-18T11:33:33.410Z,-35.1249,-179.3989,35,4.5,mb,,190,3.057,0.98,us,us200028tw,2015-06-26T23:15:56.040Z,"east of the North Island of New Zealand",earthquake,13.2,2,0.181,11,reviewed,us,us
+2015-04-18T16:46:50.350Z,36.4768,23.1447,18.6,4.7,mwr,,,,1.6,us,us200027jx,2022-07-30T23:54:38.134Z,"25 km SSE of Géfyra, Greece",earthquake,6.5,4.5,0.052,36,reviewed,ath,us
+2015-04-18T17:58:55.720Z,-24.7335,-175.3991,10,4.6,mb,,138,9.252,0.91,us,us200028tz,2015-06-26T23:15:56.040Z,"south of Tonga",earthquake,8.2,1.9,0.173,11,reviewed,us,us
+2015-04-19T02:03:16.850Z,-21.6087,-66.7373,219.01,4.5,mb,,41,2.249,1.34,us,us200027l5,2022-07-30T23:59:05.485Z,"91 km SW of Atocha, Bolivia",earthquake,7.5,4.5,0.06,81,reviewed,us,us
+2015-04-19T03:06:05.840Z,-60.3839,-24.7892,32.19,4.5,mb,,94,14.283,0.78,us,us200028v1,2015-06-26T23:15:56.040Z,"South Sandwich Islands region",earthquake,14.7,4.8,0.132,17,reviewed,us,us
+2015-04-19T05:32:14.740Z,-17.1065,66.5842,10,5.3,mb,,49,11.021,0.69,us,us200027lr,2015-06-26T23:15:56.040Z,"Mauritius - Reunion region",earthquake,9.9,1.7,0.051,130,reviewed,us,us
+2015-04-19T07:42:08.020Z,-11.64,166.5576,145.07,4.7,mb,,204,3.836,0.47,us,us200028v3,2015-06-26T23:15:57.040Z,"130 km SE of Lata, Solomon Islands",earthquake,15.3,9.1,0.095,34,reviewed,us,us
+2015-04-19T12:06:36.500Z,30.4707,142.7886,10,5.3,mb,,39,3.404,0.62,us,us200027mf,2015-06-26T23:15:57.040Z,"Izu Islands, Japan region",earthquake,7.3,1.7,0.031,349,reviewed,us,us
+2015-04-19T12:17:42.310Z,-5.4043,152.9593,42.23,4.5,mb,,96,1.442,0.43,us,us200027mg,2015-06-26T23:15:57.040Z,"140 km SSE of Kokopo, Papua New Guinea",earthquake,6.7,4.9,0.09,43,reviewed,us,us
+2015-04-19T12:48:42.550Z,-5.4879,153.0087,36.61,4.6,mb,,79,1.539,0.54,us,us200027mj,2015-06-26T23:15:57.040Z,"150 km SSE of Kokopo, Papua New Guinea",earthquake,7.9,6.9,0.085,44,reviewed,us,us
+2015-04-19T13:04:08.080Z,30.4303,142.8263,23.65,4.6,mb,,106,3.369,0.68,us,us200028vc,2015-06-26T23:15:57.040Z,"Izu Islands, Japan region",earthquake,8.8,5,0.132,17,reviewed,us,us
+2015-04-19T13:19:00.390Z,30.4451,142.794,10,4.5,mb,,119,3.379,0.76,us,us200028vf,2015-06-26T23:15:57.040Z,"Izu Islands, Japan region",earthquake,3.2,1.9,0.124,19,reviewed,us,us
+2015-04-19T15:45:55.770Z,1.3102,127,133.86,4.5,mb,,99,0.648,0.71,us,us200027mv,2015-06-26T23:15:57.040Z,"71 km NW of Ternate, Indonesia",earthquake,4.3,5.6,0.072,56,reviewed,us,us
+2015-04-19T18:40:24.950Z,1.895,98.958,122.67,5.3,mb,,45,1.501,0.92,us,us200027ni,2015-06-26T23:15:57.040Z,"26 km NE of Sibolga, Indonesia",earthquake,5.1,4.4,0.047,150,reviewed,us,us
+2015-04-19T21:01:48.660Z,22.1475,143.7703,131.29,4.5,mb,,33,5.133,0.26,us,us200027ny,2015-06-26T23:15:57.040Z,"Volcano Islands, Japan region",earthquake,6.5,6.1,0.051,112,reviewed,us,us
+2015-04-19T22:02:20.830Z,38.5986,-29.1937,12.84,4.6,mb,,82,0.751,0.28,us,us200027p4,2015-06-26T23:15:57.040Z,"42 km WNW of Castelo Branco, Portugal",earthquake,4.3,4.2,0.072,58,reviewed,us,us
+2015-04-19T22:03:51.270Z,30.4503,142.6191,27.39,4.5,mb,,191,3.364,0.79,us,us200028vi,2015-06-26T23:15:57.040Z,"Izu Islands, Japan region",earthquake,5.6,8.1,0.27,4,reviewed,us,us
+2015-04-19T22:29:47.270Z,-30.4063,-177.9081,29.5,4.5,mb,,130,1.157,0.61,us,us200028vk,2015-06-26T23:15:57.040Z,"Kermadec Islands, New Zealand",earthquake,8.6,5.2,0.139,15,reviewed,us,us
+2015-04-19T22:33:23.680Z,27.248,130.4911,10,4.7,mb,,53,1.566,0.46,us,us200027p9,2015-06-26T23:15:57.040Z,"158 km SE of Naze, Japan",earthquake,4.9,1.8,0.07,63,reviewed,us,us
+2015-04-20T00:32:13.170Z,-10.9462,165.9089,69.46,4.5,mb,,143,4.647,0.73,us,us200029ta,2015-06-26T23:15:57.040Z,"27 km SSE of Lata, Solomon Islands",earthquake,10.8,7.7,0.15,13,reviewed,us,us
+2015-04-20T01:42:58.380Z,24.2026,122.3158,29,6.4,mww,,11,0.659,1.26,us,us200027ps,2022-08-07T07:57:54.402Z,"75 km WSW of Yonakuni, Japan",earthquake,6,1.7,,,reviewed,us,us
+2015-04-20T01:49:11.590Z,24.0958,122.4573,35,5.2,mb,,87,0.626,1.03,us,us200028h7,2015-06-26T23:15:57.040Z,"68 km SW of Yonakuni, Japan",earthquake,6.1,1.9,0.068,72,reviewed,us,us
+2015-04-20T02:04:20.540Z,-5.5754,146.3165,59.54,4.6,mb,,69,3.895,1.02,us,us200029tc,2015-06-26T23:15:57.040Z,"70 km ESE of Madang, Papua New Guinea",earthquake,8.7,5.7,0.119,21,reviewed,us,us
+2015-04-20T03:24:31.520Z,-23.4867,179.9898,532.85,4.5,mb,,104,5.993,1.04,us,us200029tf,2015-06-26T23:15:58.040Z,"south of the Fiji Islands",earthquake,15.5,11.9,0.113,23,reviewed,us,us
+2015-04-20T07:11:41.690Z,10.8604,-62.3624,89.78,4.7,mb,,62,1.442,0.8,us,us200027r0,2022-07-31T00:11:02.467Z,"32 km NNW of Güiria, Venezuela",earthquake,6.3,6.8,0.042,175,reviewed,us,us
+2015-04-20T08:05:17.410Z,-29.7601,-178.2277,10,4.5,mb,,153,0.575,0.95,us,us200029ud,2015-06-26T23:15:58.040Z,"Kermadec Islands, New Zealand",earthquake,5.7,2,0.27,4,reviewed,us,us
+2015-04-20T09:05:34.120Z,-5.6841,102.4776,27,5.7,mwb,,24,1.398,1.25,us,us200027rc,2022-05-03T17:19:47.777Z,"202 km SSW of Pagar Alam, Indonesia",earthquake,6.4,1.8,0.039,63,reviewed,us,us
+2015-04-20T10:33:34.300Z,-5.8882,102.3175,19.67,4.7,mb,,182,5.345,0.98,us,us200029tu,2015-06-26T23:15:58.040Z,"230 km SSW of Pagar Alam, Indonesia",earthquake,4.7,5.4,0.12,21,reviewed,us,us
+2015-04-20T11:20:47.620Z,23.635,121.6378,36.98,4.9,mwr,,48,0.395,0.85,us,us200027rr,2022-07-31T00:12:53.808Z,"38 km S of Hualien City, Taiwan",earthquake,4.7,4.5,0.056,31,reviewed,us,us
+2015-04-20T11:45:13.440Z,24.0851,122.453,29,6,mww,,12,0.635,0.69,us,us200027rt,2022-07-31T00:13:52.551Z,"69 km SW of Yonakuni, Japan",earthquake,4.3,1.7,,,reviewed,us,us
+2015-04-20T12:00:00.070Z,24.0471,122.4532,29,6.1,mww,,26,0.659,0.77,us,us200027ru,2022-07-31T00:14:46.952Z,"72 km SW of Yonakuni, Japan",earthquake,5.5,1.8,,,reviewed,us,us
+2015-04-20T13:03:22.950Z,-11.3895,161.9111,35,4.8,mb,,94,6.539,0.93,us,us200027sd,2015-06-26T23:15:58.040Z,"103 km S of Kirakira, Solomon Islands",earthquake,7.5,1.9,0.087,41,reviewed,us,us
+2015-04-20T13:33:21.820Z,30.1936,141.5683,37.95,4.5,mb,,135,3.133,0.44,us,us200029tr,2015-06-26T23:15:58.040Z,"Izu Islands, Japan region",earthquake,12.9,11.2,0.192,8,reviewed,us,us
+2015-04-20T13:48:24.400Z,-17.8418,-178.6406,554.51,4.6,mb,,69,3.151,0.79,us,us200027sg,2015-06-26T23:15:58.040Z,"217 km E of Levuka, Fiji",earthquake,10.1,6,0.038,211,reviewed,us,us
+2015-04-20T14:32:20.190Z,-15.3436,-173.0326,10,4.7,mb,,101,1.873,0.49,us,us200029u0,2015-06-26T23:15:58.040Z,"106 km NE of Hihifo, Tonga",earthquake,6.5,1.9,0.183,10,reviewed,us,us
+2015-04-20T15:56:04.180Z,-15.3437,-173.0132,10,4.5,mb,,120,1.861,0.54,us,us200029tv,2015-06-26T23:15:59.040Z,"107 km NE of Hihifo, Tonga",earthquake,7,2,0.181,10,reviewed,us,us
+2015-04-20T16:04:28.610Z,27.996,52.436,10,4.5,mb,,62,4.542,0.7,us,us200027t3,2015-06-26T23:15:59.040Z,"65 km NW of Mohr, Iran",earthquake,5.9,1.9,0.075,52,reviewed,us,us
+2015-04-20T16:26:15.270Z,40.0821,106.5914,29.39,4.5,mb,,158,6.32,0.45,us,us200029ui,2015-06-26T23:15:59.040Z,"48 km NNW of Wuhai, China",earthquake,17.7,7.1,0.242,6,reviewed,us,us
+2015-04-20T16:40:19.220Z,14.2155,145.3137,118.94,4.8,mb,,67,0.757,0.59,us,us200027tb,2015-06-26T23:15:59.040Z,"88 km NNE of Yigo Village, Guam",earthquake,8.6,5.2,0.045,154,reviewed,us,us
+2015-04-20T17:52:04.100Z,-16.7503,-173.6624,10,4.6,mb,,71,3.359,0.73,us,us200029tz,2015-06-26T23:15:59.040Z,"89 km S of Hihifo, Tonga",earthquake,9.7,1.8,0.206,7,reviewed,us,us
+2015-04-20T18:19:53.200Z,-62.0591,161.0038,10,5,mb,,42,15.539,1.04,us,us200027ul,2015-06-26T23:15:59.040Z,"Balleny Islands region",earthquake,6.6,1.8,0.089,41,reviewed,us,us
+2015-04-20T18:36:45.570Z,-9.3644,158.6264,26.68,4.5,mb,,73,1.305,0.73,us,us200029u1,2015-06-26T23:15:59.040Z,"125 km WNW of Malango, Solomon Islands",earthquake,8.6,4.8,0.145,14,reviewed,us,us
+2015-04-20T20:02:06.890Z,-6.1523,150.6008,64.44,4.9,mb,,37,2.493,0.79,us,us200027v4,2015-06-26T23:15:59.040Z,"83 km SE of Kimbe, Papua New Guinea",earthquake,8,4.9,0.06,91,reviewed,us,us
+2015-04-20T20:26:13.210Z,-20.8187,-178.0094,535.81,4.6,mb,,99,4.814,0.75,us,us200029u4,2015-06-26T23:15:59.040Z,"293 km W of Haveluloto, Tonga",earthquake,12.4,6.8,0.066,68,reviewed,us,us
+2015-04-20T20:35:29.740Z,-19.3506,-177.652,571.34,4.5,mb,,170,4.376,0.52,us,us200029u5,2015-06-26T23:15:59.040Z,"Fiji region",earthquake,17,10.6,0.115,22,reviewed,us,us
+2015-04-21T00:17:28.930Z,14.1208,92.9493,27.07,5.1,mb,,46,7.052,0.75,us,us200027ye,2015-06-26T23:16:00.040Z,"269 km N of Bamboo Flat, India",earthquake,6.9,3.2,0.044,171,reviewed,us,us
+2015-04-21T02:01:17.400Z,-15.1164,-173.2133,87.06,4.5,mb,,110,1.836,0.57,us,us200029up,2015-06-26T23:16:00.040Z,"111 km NE of Hihifo, Tonga",earthquake,8.3,19,0.204,7,reviewed,us,us
+2015-04-21T07:33:00.580Z,46.2738,152.8711,49.04,4.8,mb,,71,6.998,0.56,us,us2000280g,2015-06-26T23:16:00.040Z,"Kuril Islands",earthquake,8.8,6.1,0.036,232,reviewed,us,us
+2015-04-21T08:14:36.740Z,-5.0001,152.6192,54.91,4.5,mb,,115,0.923,0.49,us,us200029uy,2015-06-26T23:16:00.040Z,"82 km SSE of Kokopo, Papua New Guinea",earthquake,11.2,8.7,0.092,35,reviewed,us,us
+2015-04-21T09:38:46.530Z,-8.4076,155.2961,593.36,4.5,mb,,135,4.708,0.2,us,us200029vg,2015-06-26T23:16:00.040Z,"173 km W of Gizo, Solomon Islands",earthquake,18.7,16.6,0.242,5,reviewed,us,us
+2015-04-21T11:21:09.560Z,-6.0966,149.8353,35,5.3,mb,,17,2.993,1.14,us,us20002813,2022-07-31T00:31:30.780Z,"34 km ENE of Kandrian, Papua New Guinea",earthquake,6.5,1.9,0.057,103,reviewed,us,us
+2015-04-21T11:24:42.230Z,-6.1438,149.8747,35,4.9,mb,,87,2.993,0.84,us,us200029vi,2015-06-26T23:16:00.040Z,"36 km E of Kandrian, Papua New Guinea",earthquake,9.7,2,0.186,9,reviewed,us,us
+2015-04-21T13:01:20.870Z,16.0028,-96.7188,10,4.7,mwr,,82,0.409,0.77,us,us2000281f,2022-07-31T00:34:22.649Z,"3 km NNW of San Bartolomé Loxícha, Mexico",earthquake,6.8,1.8,0.069,20,reviewed,us,us
+2015-04-21T13:28:46.180Z,-24.8218,179.802,489.31,4.5,mb,,128,7.228,0.73,us,us200029v3,2015-06-26T23:16:00.040Z,"south of the Fiji Islands",earthquake,9.4,11.4,0.099,30,reviewed,us,us
+2015-04-21T13:39:21.910Z,30.4432,142.6478,31.19,4.5,mb,,145,3.36,0.89,us,us200029v4,2015-06-26T23:16:00.040Z,"Izu Islands, Japan region",earthquake,9.4,6.7,0.221,7,reviewed,us,us
+2015-04-21T13:46:30.830Z,-18.2383,-178.2021,505.5,5.1,mb,,19,3.597,0.64,us,us2000281l,2022-05-03T17:20:05.139Z,"263 km E of Levuka, Fiji",earthquake,9.1,4.7,0.029,374,reviewed,us,us
+2015-04-21T14:02:15.550Z,28.8947,82.3938,10,5,mb,,35,7.668,0.7,us,us2000281p,2022-07-31T00:32:25.483Z,"46 km SSE of Jumla, Nepal",earthquake,7.9,1.8,0.045,162,reviewed,us,us
+2015-04-21T14:33:12.640Z,30.4432,142.9071,23.77,4.6,mb,,111,3.395,0.71,us,us200029v5,2015-06-26T23:16:01.040Z,"Izu Islands, Japan region",earthquake,9,5.4,0.122,20,reviewed,us,us
+2015-04-21T15:28:21.880Z,-1.7236,138.5387,33.5,4.5,mb,,141,6.395,0.66,us,us200029ve,2015-06-26T23:16:01.040Z,"252 km WNW of Abepura, Indonesia",earthquake,9.2,5.2,0.106,26,reviewed,us,us
+2015-04-21T15:46:13.530Z,-57.2605,-25.7138,57.95,4.7,mb,,70,6.77,0.62,us,us200029v8,2015-06-26T23:16:01.040Z,"South Sandwich Islands region",earthquake,8.1,5.8,0.104,28,reviewed,us,us
+2015-04-21T16:10:36.510Z,14.4248,56.2668,10,4.7,mb,,47,2.916,0.84,us,us20002857,2015-06-26T23:16:01.040Z,"Owen Fracture Zone region",earthquake,9,1.8,0.075,54,reviewed,us,us
+2015-04-21T16:35:34.790Z,46.2521,152.9252,35.34,4.9,mb,,127,7.527,0.53,us,us2000285g,2015-06-26T23:16:01.040Z,"Kuril Islands",earthquake,8.4,6.4,0.037,229,reviewed,us,us
+2015-04-21T17:47:47.650Z,8.2776,125.6884,122.15,4.6,mb,,196,1.205,1.18,us,us200029vc,2015-06-26T23:16:01.040Z,"4 km NW of Binucayan, Philippines",earthquake,23.3,11.6,0.182,9,reviewed,us,us
+2015-04-21T18:40:44.160Z,46.2771,152.8837,42.93,4.6,mb,,102,7.006,0.79,us,us2000286h,2015-06-26T23:16:01.040Z,"Kuril Islands",earthquake,6.9,4.8,0.062,77,reviewed,us,us
+2015-04-21T19:00:21.260Z,-14.7636,-71.3539,153,5.3,mwb,,56,3.456,1.26,us,us2000286l,2016-11-10T21:47:11.432Z,"6 km ENE of Yauri, Peru",earthquake,7.7,1.8,0.06,27,reviewed,us,us
+2015-04-21T19:10:15.140Z,-6.3348,154.7629,39,5.3,mwb,,13,3.351,0.92,us,us2000286u,2015-06-26T23:16:01.040Z,"79 km W of Panguna, Papua New Guinea",earthquake,7.1,1.9,0.039,63,reviewed,us,us
+2015-04-21T20:32:31.270Z,-1.6974,138.6588,29.87,4.9,mb,,61,2.199,0.83,us,us2000287d,2015-06-26T23:16:01.040Z,"241 km WNW of Abepura, Indonesia",earthquake,6.9,4.7,0.063,79,reviewed,us,us
+2015-04-21T22:23:07.920Z,-13.7617,167.2538,204.71,4.5,mb,,137,1.676,0.62,us,us200029vf,2015-06-26T23:16:01.040Z,"34 km WNW of Sola, Vanuatu",earthquake,13,6.1,0.076,50,reviewed,us,us
+2015-04-22T01:54:12.150Z,59.3058,-30.2599,10,4.7,mb,,43,6.884,0.73,us,us2000289p,2015-06-26T23:16:01.040Z,"Reykjanes Ridge",earthquake,8.7,1.6,0.04,194,reviewed,us,us
+2015-04-22T06:00:12.000Z,-37.772,-73.685,15.5,4.5,mwr,,,,1.4,us,us200028a4,2022-07-31T00:39:07.112Z,"18 km S of Lebu, Chile",earthquake,8.4,3.7,0.06,27,reviewed,guc,us
+2015-04-22T07:06:53.540Z,-13.5804,166.6897,54.27,4.7,mb,,143,1.921,1.16,us,us200028ab,2015-06-26T23:16:02.040Z,"98 km WNW of Sola, Vanuatu",earthquake,7.4,6.3,0.086,41,reviewed,us,us
+2015-04-22T08:17:55.680Z,-16.8646,-173.5509,88.91,4.6,mb,,124,3.399,0.79,us,us20002a3f,2015-06-26T23:16:02.040Z,"104 km SSE of Hihifo, Tonga",earthquake,12.8,6.4,0.073,56,reviewed,us,us
+2015-04-22T13:45:50.450Z,9.905,125.9705,76.63,4.5,mb,,77,2.843,0.89,us,us200028bn,2015-06-26T23:16:02.040Z,"2 km NNW of Libas, Philippines",earthquake,10.2,7.2,0.086,40,reviewed,us,us
+2015-04-22T17:03:12.030Z,-30.6629,-178.3427,35,5.2,mb,,50,1.458,0.94,us,us200028dr,2015-06-26T23:16:02.040Z,"Kermadec Islands, New Zealand",earthquake,8,1.9,0.048,145,reviewed,us,us
+2015-04-22T19:05:47.300Z,29.1911,142.0931,22.34,4.5,mb,,137,2.089,0.39,us,us20002a49,2015-06-26T23:16:02.040Z,"Izu Islands, Japan region",earthquake,11.1,3.5,0.243,5,reviewed,us,us
+2015-04-22T19:15:59.800Z,-16.3818,-173.363,111.89,4.6,mb,,160,2.896,0.48,us,us20002a3x,2015-06-26T23:16:02.040Z,"66 km SE of Hihifo, Tonga",earthquake,18.2,6.5,0.151,13,reviewed,us,us
+2015-04-22T19:27:29.520Z,-11.7896,166.5569,132.01,4.8,mb,,137,6.904,1.1,us,us200028ec,2015-06-26T23:16:02.040Z,"144 km SE of Lata, Solomon Islands",earthquake,12.1,6,0.065,72,reviewed,us,us
+2015-04-22T20:55:07.120Z,-41.2908,-72.7259,10,4.6,mb,,89,0.287,0.88,us,us20002a40,2022-07-31T09:53:27.316Z,"18 km WSW of La Ensenada, Chile",earthquake,4.7,1.9,0.193,8,reviewed,us,us
+2015-04-22T21:38:28.620Z,8.0674,-38.1512,10,4.5,mb,,79,13.984,0.69,us,us20002a43,2015-06-26T23:16:02.040Z,"central Mid-Atlantic Ridge",earthquake,9.9,1.9,0.125,19,reviewed,us,us
+2015-04-22T22:15:29.810Z,-8.8054,126.066,10,4.6,mb,,46,2.01,1.01,us,us200028gj,2015-06-26T23:16:02.040Z,"33 km S of Manatutu, Timor Leste",earthquake,6.1,1.7,0.074,54,reviewed,us,us
+2015-04-22T22:42:42.320Z,-41.6929,174.2878,20,4.7,mwr,,93,0.078,1.01,us,us200028gs,2022-07-31T00:46:24.514Z,"34 km SE of Blenheim, New Zealand",earthquake,3.4,4,0.059,28,reviewed,us,us
+2015-04-22T22:57:15.650Z,-12.039,166.432,72,6.2,mww,,28,6.875,0.66,us,us200028gt,2022-05-03T17:20:16.865Z,"161 km SSE of Lata, Solomon Islands",earthquake,8.4,1.8,,,reviewed,us,us
+2015-04-22T23:07:30.750Z,-31.4858,76.7845,10,4.9,mb,,70,33.868,0.61,us,us20002a45,2015-06-26T23:16:03.040Z,"Mid-Indian Ridge",earthquake,12.8,1.9,0.106,28,reviewed,us,us
+2015-04-23T04:49:13.770Z,-17.6385,-69.4738,167.99,4.7,mb,,85,0.693,0.76,us,us200028i2,2015-07-03T00:23:36.040Z,"53 km ENE of Palca, Peru",earthquake,6.8,4.9,0.147,14,reviewed,us,us
+2015-04-23T08:31:04.170Z,-33.2693,-179.2935,32.07,4.5,mb,,182,4.71,1.07,us,us20002a65,2015-07-03T00:23:37.040Z,"south of the Kermadec Islands",earthquake,11.6,5.5,0.127,18,reviewed,us,us
+2015-04-23T10:52:20.060Z,1.7628,128.687,55.93,4.6,mb,,111,1.646,1.08,us,us200028je,2015-07-03T00:23:37.040Z,"75 km E of Tobelo, Indonesia",earthquake,8.4,8.1,0.098,31,reviewed,us,us
+2015-04-23T10:55:39.620Z,-50.3559,113.8237,10,4.5,mb,,143,16.06,0.6,us,us20002a6a,2015-07-03T00:23:37.040Z,"southeast Indian Ridge",earthquake,17.2,1.7,0.131,17,reviewed,us,us
+2015-04-23T11:14:13.540Z,-30.938,-178.0682,10,4.7,mb,,115,1.691,0.79,us,us200028jh,2015-07-03T00:23:37.040Z,"Kermadec Islands, New Zealand",earthquake,9.8,1.8,0.091,37,reviewed,us,us
+2015-04-23T11:52:34.430Z,-29.6852,-176.6537,43.54,4.5,mb,,129,1.195,0.71,us,us20002a6c,2015-07-03T00:23:37.040Z,"Kermadec Islands region",earthquake,9.4,6.4,0.099,30,reviewed,us,us
+2015-04-23T12:23:44.410Z,41.9335,142.2844,70.04,4.5,mb,,106,0.655,0.6,us,us200028jn,2015-07-03T00:23:37.040Z,"Hokkaido, Japan region",earthquake,7.6,3.9,0.067,65,reviewed,us,us
+2015-04-23T13:15:36.780Z,41.3144,141.2327,54.78,4.6,mb,,122,1.535,1.31,us,us200028js,2015-07-03T00:23:37.040Z,"3 km NNE of Mutsu, Japan",earthquake,6.4,9.4,0.193,8,reviewed,us,us
+2015-04-23T13:52:18.510Z,-35.528,-111.0641,10,4.8,mb,,141,31.804,0.87,us,us20002a6g,2015-07-03T00:23:37.040Z,"southern East Pacific Rise",earthquake,10.4,1.8,0.134,17,reviewed,us,us
+2015-04-23T14:31:40.590Z,45.7177,142.1055,309.56,5,mb,,86,1.321,0.96,us,us200028jz,2022-07-31T00:54:44.831Z,"44 km NNE of Makubetsu, Japan",earthquake,7.9,5.1,0.028,409,reviewed,us,us
+2015-04-23T14:57:27.750Z,51.7501,176.3353,31,5,mwb,,63,1.364,0.86,us,us200028ka,2023-07-26T15:44:39.426Z,"247 km ESE of Attu Station, Alaska",earthquake,5.8,1.8,0.04,59,reviewed,us,us
+2015-04-23T17:10:48.700Z,-8.363,-75.642,15.58,4.7,mb,,96,2.988,0.66,us,us20002a6h,2015-07-03T00:23:37.040Z,"69 km NW of San Alejandro, Peru",earthquake,3.6,5.2,0.098,32,reviewed,us,us
+2015-04-23T17:47:35.220Z,-17.0769,-174.4703,277.06,4.5,mb,,72,4.081,0.6,us,us20002a6i,2015-07-03T00:23:37.040Z,"143 km SSW of Hihifo, Tonga",earthquake,8.9,10.5,0.096,32,reviewed,us,us
+2015-04-23T17:57:29.830Z,-16.8873,-174.2738,37.76,4.5,mb,,141,3.816,0.38,us,us20002a6k,2015-07-03T00:23:37.040Z,"Tonga",earthquake,8.6,10.4,0.145,14,reviewed,us,us
+2015-04-23T18:59:30.560Z,-13.7975,172.3466,606.95,4.5,mb,,224,6.75,0.32,us,us20002a6q,2015-07-03T00:23:37.040Z,"Vanuatu region",earthquake,13.5,15.3,0.15,13,reviewed,us,us
+2015-04-23T22:21:05.770Z,-18.4473,-175.4296,207.89,4.7,mb,,54,5.25,0.99,us,us200028nu,2015-07-03T00:23:37.040Z,"154 km W of Neiafu, Tonga",earthquake,6.6,4.9,0.055,100,reviewed,us,us
+2015-04-23T23:58:22.380Z,12.2983,94.9874,34.43,4.9,mb,,51,2.286,0.77,us,us200028p4,2015-07-03T00:23:37.040Z,"253 km ENE of Port Blair, India",earthquake,6.9,3.2,0.052,115,reviewed,us,us
+2015-04-24T01:29:48.690Z,51.7761,-175.1827,51.48,5.3,mb,,68,0.604,0.7,us,us200028pd,2023-07-26T15:46:31.608Z,"82 km SW of Atka, Alaska",earthquake,4.5,2.7,0.027,459,reviewed,us,us
+2015-04-24T01:34:55.550Z,40.4556,-127.1509,10,5.4,mww,,50,2.29,1.26,us,us200028pe,2020-05-02T03:33:57.056Z,"245 km W of Ferndale, California",earthquake,7,1.8,,,reviewed,us,us
+2015-04-24T02:51:07.830Z,-6.537,154.9854,83.52,5,mb,,30,3.65,0.75,us,us200028q4,2022-05-03T17:20:23.938Z,"60 km WSW of Panguna, Papua New Guinea",earthquake,6.6,5.1,0.061,86,reviewed,us,us
+2015-04-24T03:36:42.400Z,-42.0602,173.0066,48,6.1,mww,,22,0.307,0.93,us,us200028qc,2022-07-31T00:58:26.614Z,"73 km S of Wakefield, New Zealand",earthquake,3.7,1.8,,,reviewed,us,us
+2015-04-24T05:28:07.920Z,-0.196,124.2485,79.43,5.1,mb,,30,1.699,1.03,us,us200028rg,2015-07-03T00:23:37.040Z,"154 km ESE of Gorontalo, Indonesia",earthquake,6.6,5.2,0.054,111,reviewed,us,us
+2015-04-24T06:20:46.960Z,36.282,68.6365,36.94,4.6,mb,,80,1.768,1.31,us,us200028rq,2015-07-03T00:23:38.040Z,"17 km NNW of Baghl?n, Afghanistan",earthquake,5.9,6.9,0.111,24,reviewed,us,us
+2015-04-24T07:37:52.760Z,36.5043,142.8036,38.02,4.6,mb,,136,2.107,1.02,us,us200028s3,2015-07-03T00:23:38.040Z,"181 km ESE of Iwaki, Japan",earthquake,4.2,7.3,0.088,38,reviewed,us,us
+2015-04-24T13:56:15.180Z,51.6148,-130.7714,8,6.2,mww,,69,1.743,1.24,us,us200028ue,2022-07-31T01:04:09.858Z,"282 km WNW of Port McNeill, Canada",earthquake,4.6,1.8,,,reviewed,us,us
+2015-04-24T14:09:32.480Z,51.6381,-130.894,21.37,4.6,mb,,165,1.504,1.24,us,us20002afg,2015-07-03T00:23:38.040Z,"290 km WNW of Port McNeill, Canada",earthquake,2.4,6.7,0.244,5,reviewed,us,us
+2015-04-24T14:47:29.890Z,-33.0293,-178.1333,62.09,4.5,mb,,195,6.496,0.8,us,us20002afh,2015-07-03T00:23:38.040Z,"south of the Kermadec Islands",earthquake,8.9,18.6,0.144,14,reviewed,us,us
+2015-04-24T15:02:54.100Z,44.228,11.9,20.9,4.5,mb,,,,1.03,us,us200028uy,2022-07-31T02:02:05.903Z,"6 km NW of Castrocaro Terme e Terra del Sole, Italy",earthquake,4.3,5.1,0.192,8,reviewed,rom,us
+2015-04-24T17:01:40.060Z,-7.3144,120.6939,527.8,4.5,mb,,48,2.015,0.74,us,us200028wp,2015-07-03T00:23:38.040Z,"145 km N of Ruteng, Indonesia",earthquake,5.5,7.6,0.067,64,reviewed,us,us
+2015-04-24T22:14:44.810Z,38.6201,-29.1194,10,4.6,mb,,155,0.69,1.38,us,us2000290j,2015-07-03T00:23:38.040Z,"36 km WNW of Castelo Branco, Portugal",earthquake,8.7,1.9,0.141,15,reviewed,us,us
+2015-04-25T00:37:42.210Z,13.8503,144.8365,140.2,5.1,mb,,38,0.261,0.74,us,us20002910,2022-07-31T01:06:47.446Z,"35 km N of Yigo Village, Guam",earthquake,8.4,4.6,0.03,358,reviewed,us,us
+2015-04-25T00:49:07.610Z,-7.6585,127.5316,167.7,4.7,mb,,33,3.746,1.18,us,us20002911,2015-07-03T00:23:38.040Z,"112 km NNE of Lospalos, Timor Leste",earthquake,6.9,5.7,0.074,56,reviewed,us,us
+2015-04-25T05:34:15.710Z,8.4383,125.9115,76.68,4.5,mb,,114,1.399,0.94,us,us20002bf0,2015-07-03T00:23:38.040Z,"5 km SSE of Borbon, Philippines",earthquake,10.9,8.9,0.113,23,reviewed,us,us
+2015-04-25T06:11:25.950Z,28.2305,84.7314,8.22,7.8,mww,,12,1.857,0.96,us,us20002926,2024-08-25T16:48:21.155Z,"67 km NNE of Bharatpur, Nepal",earthquake,7.3,2.9,,,reviewed,us,us
+2015-04-25T06:15:22.910Z,27.6285,85.5398,10,6.1,mb,,43,1.173,1.02,us,us20002bi4,2024-06-16T23:45:44.729Z,"0 km NNW of Dhulikhel, Nepal",earthquake,8,1.8,0.089,48,reviewed,us,us
+2015-04-25T06:18:10.870Z,27.6857,86.0213,10,5.6,mb,,42,0.751,0.76,us,us20002bi0,2024-06-16T23:45:39.737Z,"31 km SSE of Kod?ri??, Nepal",earthquake,7.4,1.9,0.109,30,reviewed,us,us
+2015-04-25T06:20:40.340Z,28.2046,84.492,10,5.4,mb,,151,2.064,0.88,us,us20002bi6,2022-05-03T17:22:49.242Z,"Nepal",earthquake,4.3,1.9,0.13,20,reviewed,us,us
+2015-04-25T06:21:54.905Z,60.0675,-153.497,170.1,4.7,ml,,,,0.72,ak,ak0155aai4oy,2023-07-26T15:50:53.852Z,"46 km NE of Pedro Bay, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2015-04-25T06:22:02.750Z,27.8006,85.1141,10,5.1,mb,,99,1.511,0.86,us,us20002bhs,2024-01-17T21:09:09.592Z,"21 km NW of Kirtipur, Nepal",earthquake,7.8,1.5,0.131,19,reviewed,us,us
+2015-04-25T06:22:23.350Z,27.813,85.448,18,5.26,mw,,,,,iscgem,iscgem607260025,2022-05-03T17:22:52.632Z,"12 km NNW of Nagarkot, Nepal",earthquake,,8.4,0.22,,reviewed,iscgem,iscgem
+2015-04-25T06:25:55.260Z,27.687,85.5854,10,5,mb,,58,1.119,0.63,us,us20002bfk,2022-05-03T17:22:53.826Z,"7 km ESE of Nagarkot, Nepal",earthquake,8.3,1.8,0.075,57,reviewed,us,us
+2015-04-25T06:28:05.780Z,27.7006,85.5043,10,4.8,mb,,75,1.186,0.96,us,us20002bf2,2022-05-03T17:22:54.929Z,"2 km SW of Nagarkot, Nepal",earthquake,7.9,1.8,0.087,41,reviewed,us,us
+2015-04-25T06:29:46.130Z,27.8478,85.0717,10,4.7,mb,,98,1.543,0.58,us,us20002bfi,2015-07-03T00:23:39.040Z,"Nepal",earthquake,8.4,1.9,0.159,12,reviewed,us,us
+2015-04-25T06:32:48.870Z,27.7244,85.9479,10,4.6,mb,,128,0.799,1.07,us,us20002bfx,2015-07-03T00:23:39.040Z,"26 km S of Kod?ri??, Nepal",earthquake,8,1.9,0.126,19,reviewed,us,us
+2015-04-25T06:35:46.330Z,32.8677,140.4075,86.38,5.2,mb,,83,0.556,0.92,us,us2000292n,2015-07-03T00:23:39.040Z,"239 km SSE of Tateyama, Japan",earthquake,7.3,4.9,0.053,119,reviewed,us,us
+2015-04-25T06:37:58.690Z,27.7435,85.8302,10,5.1,mb,,76,0.895,0.65,us,us2000292w,2022-07-31T01:09:42.615Z,"27 km SSW of Kod?ri??, Nepal",earthquake,4.2,1.8,0.057,101,reviewed,us,us
+2015-04-25T06:44:39.040Z,27.5862,85.5012,10,4.6,mb,,117,1.219,1.14,us,us20002bim,2015-07-03T00:23:39.040Z,"1 km W of Panauti??, Nepal",earthquake,5,1.9,0.114,23,reviewed,us,us
+2015-04-25T06:45:21.320Z,28.2244,84.8216,10,6.6,mww,,16,1.778,0.64,us,us2000292y,2022-07-31T01:08:40.894Z,"71 km NNE of Bharatpur, Nepal",earthquake,7.4,1.7,,,reviewed,us,us
+2015-04-25T06:53:42.750Z,27.672,85.2009,10,5,mb,,42,1.455,0.65,us,us20002bf3,2022-05-03T17:22:58.327Z,"7 km W of Kirtipur, Nepal",earthquake,8,1.8,0.095,35,reviewed,us,us
+2015-04-25T06:56:33.860Z,27.8822,85.7505,10,5.5,mb,,39,0.942,0.65,us,us20002934,2022-07-31T01:12:49.171Z,"22 km WSW of Kod?ri??, Nepal",earthquake,3,1.8,0.053,123,reviewed,us,us
+2015-04-25T06:58:27.570Z,27.7219,86.0061,10,5.1,mb,,76,0.751,0.55,us,us20002bfz,2022-05-03T17:23:00.632Z,"26 km S of Kod?ri??, Nepal",earthquake,6.8,1.8,0.077,55,reviewed,us,us
+2015-04-25T07:07:59.920Z,27.7879,85.914,10,4.9,mb,,57,0.812,0.73,us,us20002939,2022-07-31T01:11:44.856Z,"19 km SSW of Kod?ri??, Nepal",earthquake,6,1.8,0.054,108,reviewed,us,us
+2015-04-25T07:13:44.150Z,27.615,85.7307,10,4.8,mb,,105,1.017,0.72,us,us2000293i,2022-07-31T01:10:44.269Z,"18 km E of Dhulikhel, Nepal",earthquake,6.4,1.5,0.07,63,reviewed,us,us
+2015-04-25T07:16:55.060Z,27.8818,85.6791,10,4.7,mb,,81,1.005,0.85,us,us2000293d,2015-07-03T00:23:39.040Z,"24 km NE of Nagarkot, Nepal",earthquake,3.1,1.8,0.064,75,reviewed,us,us
+2015-04-25T07:39:33.970Z,27.6821,85.7383,10,4.5,mb,,99,0.989,0.66,us,us2000293l,2015-07-03T00:23:39.040Z,"20 km ENE of Dhulikhel, Nepal",earthquake,6.5,1.3,0.076,51,reviewed,us,us
+2015-04-25T07:47:01.480Z,27.8172,85.5955,10,5,mb,,79,1.085,0.59,us,us2000293p,2022-07-31T01:13:44.729Z,"13 km NNE of Nagarkot, Nepal",earthquake,6.9,1.8,0.052,118,reviewed,us,us
+2015-04-25T08:05:37.950Z,27.8132,85.7943,10,4.6,mb,,104,0.912,0.75,us,us2000293v,2022-07-31T01:14:45.061Z,"22 km SW of Kod?ri??, Nepal",earthquake,5.6,1.4,0.058,90,reviewed,us,us
+2015-04-25T08:16:59.230Z,27.7014,85.7563,10,4.9,mb,,76,0.969,0.55,us,us20002942,2022-05-03T17:20:47.163Z,"22 km ENE of Dhulikhel, Nepal",earthquake,6.2,1.8,0.051,123,reviewed,us,us
+2015-04-25T08:20:11.160Z,27.8549,85.7931,10,4.7,mb,,82,0.907,0.72,us,us20002944,2015-07-03T00:23:39.040Z,"19 km SW of Kod?ri??, Nepal",earthquake,4.2,1.8,0.063,76,reviewed,us,us
+2015-04-25T08:20:48.800Z,27.6429,85.16,10,4.9,mb,,69,1.496,0.79,us,us20002bfd,2022-05-03T17:23:06.480Z,"12 km WSW of Kirtipur, Nepal",earthquake,7.2,1.8,0.057,96,reviewed,us,us
+2015-04-25T08:22:47.620Z,27.8166,85.5666,10,4.6,mb,,149,1.111,0.66,us,us20002bik,2015-07-03T00:23:39.040Z,"12 km NNE of Nagarkot, Nepal",earthquake,8.6,1.9,0.1,30,reviewed,us,us
+2015-04-25T08:29:24.560Z,27.9351,84.6218,10,5,mb,,99,1.937,0.68,us,us20002946,2022-07-31T01:15:40.894Z,"33 km NNE of Bharatpur, Nepal",earthquake,8.2,1.8,0.05,129,reviewed,us,us
+2015-04-25T08:31:32.430Z,27.6708,85.9539,10,4.6,mb,,166,0.812,0.78,us,us20002bgc,2015-07-03T00:23:39.040Z,"32 km S of Kod?ri??, Nepal",earthquake,7.2,1.9,0.107,26,reviewed,us,us
+2015-04-25T08:55:22.900Z,3.3682,-83.1899,10,4.5,mb,,171,5.307,1.03,us,us20002bfe,2015-07-03T00:23:39.040Z,"off the coast of Central America",earthquake,9.7,1.9,0.163,11,reviewed,us,us
+2015-04-25T08:55:55.960Z,27.5866,85.5058,10,5.3,mb,,41,1.215,0.8,us,us2000294d,2022-07-31T01:16:42.886Z,"0 km WNW of Panauti??, Nepal",earthquake,6.6,1.8,0.045,168,reviewed,us,us
+2015-04-25T09:03:14.960Z,27.8743,85.3426,10,4.8,mb,,82,1.302,0.61,us,us2000294e,2015-07-03T00:23:39.040Z,"19 km N of Kathmandu, Nepal",earthquake,7.3,1.8,0.055,102,reviewed,us,us
+2015-04-25T09:17:02.310Z,28.3902,87.3173,10,5.7,mb,,22,0.619,0.7,us,us2000294g,2022-07-31T01:17:38.200Z,"69 km NE of Lobujya, Nepal",earthquake,5.8,1.4,0.033,328,reviewed,us,us
+2015-04-25T09:22:36.900Z,27.7192,85.7503,10,4.7,mb,,50,0.969,0.81,us,us20002bg6,2015-07-03T00:23:39.040Z,"22 km E of Nagarkot, Nepal",earthquake,5.3,1.9,0.088,39,reviewed,us,us
+2015-04-25T09:30:29.690Z,27.9945,85.5209,10,4.9,mb,,42,1.142,0.68,us,us2000294i,2022-07-31T01:18:33.237Z,"30 km N of Nagarkot, Nepal",earthquake,6.8,1.8,0.043,173,reviewed,us,us
+2015-04-25T09:47:24.970Z,-38.5115,47.8819,10,4.6,mb,,36,8.44,0.65,us,us20002bgl,2015-07-03T00:23:40.040Z,"Southwest Indian Ridge",earthquake,5.5,1.8,0.119,21,reviewed,us,us
+2015-04-25T10:40:35.550Z,27.6033,85.9565,10,4.8,mb,,43,0.836,0.81,us,us2000294x,2022-07-31T01:21:34.219Z,"Nepal",earthquake,5.9,1.9,0.047,141,reviewed,us,us
+2015-04-25T10:53:43.530Z,27.8061,85.8842,10,4.6,mb,,52,0.835,0.75,us,us2000294y,2015-07-03T00:23:40.040Z,"18 km SSW of Kod?ri??, Nepal",earthquake,6,1.9,0.065,70,reviewed,us,us
+2015-04-25T11:23:47.560Z,27.6483,85.4309,10,4.5,mb,,46,1.261,0.68,us,us20002bgs,2022-07-31T08:34:33.409Z,"3 km NW of Hari Bdr Tamang House, Nepal",earthquake,8,1.9,0.096,32,reviewed,us,us
+2015-04-25T12:17:54.790Z,27.9261,85.449,10,4.5,mb,,79,1.206,0.88,us,us2000295f,2022-07-31T01:24:26.398Z,"24 km NNW of Nagarkot, Nepal",earthquake,7.6,1.9,0.069,61,reviewed,us,us
+2015-04-25T12:44:05.170Z,28.0979,84.5594,10,5.2,mb,,39,1.995,0.91,us,us2000295i,2022-07-31T01:23:20.220Z,"48 km NNE of Bharatpur, Nepal",earthquake,4,1.8,0.038,234,reviewed,us,us
+2015-04-25T12:46:36.560Z,-23.9564,-179.7619,505.6,4.6,mb,,109,6.509,0.77,us,us20002bgv,2015-07-03T00:23:40.040Z,"south of the Fiji Islands",earthquake,13.3,8.8,0.101,29,reviewed,us,us
+2015-04-25T13:30:28.030Z,28.0768,85.0378,10,4.6,mb,,86,1.572,1.22,us,us2000295v,2022-07-31T01:25:28.240Z,"50 km NNW of Kirtipur, Nepal",earthquake,7.8,1.9,0.084,42,reviewed,us,us
+2015-04-25T13:36:14.620Z,27.7266,85.9826,10,4.7,mb,,166,0.769,0.98,us,us2000295x,2015-07-03T00:23:40.040Z,"26 km S of Kod?ri??, Nepal",earthquake,3.2,1.9,0.079,48,reviewed,us,us
+2015-04-25T14:10:03.730Z,27.7109,85.8748,10,4.6,mb,,72,0.865,0.78,us,us20002965,2022-07-31T01:27:15.296Z,"28 km SSW of Kod?ri??, Nepal",earthquake,5.5,1.7,0.077,50,reviewed,us,us
+2015-04-25T16:27:21.660Z,27.8695,85.6359,10,4.9,mb,,76,1.044,0.89,us,us20002970,2022-07-31T01:31:58.085Z,"20 km NNE of Nagarkot, Nepal",earthquake,3.2,1.8,0.047,143,reviewed,us,us
+2015-04-25T16:41:15.730Z,3.115,128.1607,126.96,5.3,mb,,37,2.459,1.01,us,us20002973,2022-05-03T17:20:43.769Z,"154 km N of Tobelo, Indonesia",earthquake,5,4.8,0.045,166,reviewed,us,us
+2015-04-25T17:09:19.820Z,-4.3235,143.2895,124.27,5.2,mb,,16,4.658,0.91,us,us20002975,2015-07-03T00:23:40.040Z,"53 km ESE of Ambunti, Papua New Guinea",earthquake,3.7,4,0.043,180,reviewed,us,us
+2015-04-25T17:42:50.910Z,28.238,85.829,10,5.1,mwr,,31,0.911,0.99,us,us2000297g,2022-07-31T01:32:52.897Z,"33 km NNW of Kod?ri??, Nepal",earthquake,5.7,1.7,0.11,8,reviewed,us,us
+2015-04-25T17:46:17.590Z,28.2139,86.1072,35.26,4.5,mb,,182,0.672,1.33,us,us20002bir,2015-07-03T00:23:40.040Z,"31 km NNE of Kod?ri??, Nepal",earthquake,13,17.1,0.272,5,reviewed,us,us
+2015-04-25T20:01:36.190Z,23.9436,122.5368,22.77,5.1,mwr,,37,0.677,0.8,us,us2000298l,2022-07-31T01:33:50.356Z,"74 km SW of Yonakuni, Japan",earthquake,4.3,3.5,0.071,19,reviewed,us,us
+2015-04-25T20:37:47.680Z,8.2057,-83.4377,14.1,4.7,mwr,,68,0.497,0.82,us,us2000298z,2022-07-31T01:34:46.759Z,"56 km SW of Golfito, Costa Rica",earthquake,5.4,3.4,0.065,23,reviewed,us,us
+2015-04-25T21:07:20.000Z,27.7657,85.8114,23.88,4.6,mb,,86,0.906,0.69,us,us20002993,2022-07-31T01:36:45.810Z,"25 km SSW of Kod?ri??, Nepal",earthquake,4.9,4.4,0.051,117,reviewed,us,us
+2015-04-25T23:16:15.450Z,27.7993,84.8715,13.61,5.1,mww,,26,1.724,0.67,us,us2000299v,2022-07-31T01:37:39.168Z,"42 km WNW of Kirtipur, Nepal",earthquake,7,3.1,,,reviewed,us,us
+2015-04-25T23:41:53.750Z,27.6678,86.0726,15.68,4.5,mb,,86,0.715,0.71,us,us2000299x,2022-07-31T01:39:28.444Z,"34 km SSE of Kod?ri??, Nepal",earthquake,5.5,2.9,0.057,91,reviewed,us,us
+2015-04-26T00:23:52.760Z,-19.8333,-177.7779,487.36,5.1,mb,,28,4.462,0.8,us,us200029a4,2015-07-03T00:23:41.040Z,"Fiji region",earthquake,5.7,5,0.042,180,reviewed,us,us
+2015-04-26T00:41:45.060Z,12.8728,143.6572,107.17,4.7,mb,,41,1.377,0.49,us,us200029a9,2022-07-31T01:40:20.036Z,"118 km WSW of Merizo Village, Guam",earthquake,8.8,5.7,0.051,117,reviewed,us,us
+2015-04-26T02:17:59.680Z,-21.2319,-179.1655,598.11,4.6,mb,,30,4.349,0.86,us,us200029ap,2015-07-03T00:23:41.040Z,"Fiji region",earthquake,9.9,5.9,0.041,178,reviewed,us,us
+2015-04-26T02:48:39.070Z,28.2272,84.5858,10,4.5,mb,,62,1.984,0.87,us,us200029b1,2022-07-31T01:43:52.187Z,"60 km E of Pokhara, Nepal",earthquake,8.7,1.9,0.065,70,reviewed,us,us
+2015-04-26T04:58:40.040Z,27.9966,84.7082,10,4.5,mb,,125,1.86,1.05,us,us200029bl,2022-07-31T01:44:45.736Z,"44 km NE of Bharatpur, Nepal",earthquake,9.5,1.9,0.086,42,reviewed,us,us
+2015-04-26T07:09:10.670Z,27.7711,86.0173,22.91,6.7,mww,,13,0.727,0.86,us,us200029bt,2024-08-25T16:44:09.463Z,"21 km SSE of Kod?ri??, Nepal",earthquake,6.6,2.9,,,reviewed,us,us
+2015-04-26T07:26:04.190Z,27.7004,85.9136,10,4.9,mb,,40,0.835,0.57,us,us200029bx,2022-07-31T01:46:56.457Z,"29 km S of Kod?ri??, Nepal",earthquake,5.1,1.8,0.055,102,reviewed,us,us
+2015-04-26T07:36:26.570Z,27.7555,85.9822,10,4.7,mb,,141,0.761,0.72,us,us200029by,2022-07-31T01:47:50.289Z,"22 km S of Kod?ri??, Nepal",earthquake,6.5,1.9,0.079,49,reviewed,us,us
+2015-04-26T08:40:55.820Z,27.7307,85.854,10,4.6,mb,,85,0.877,0.91,us,us200029c4,2022-07-31T01:48:44.592Z,"27 km SSW of Kod?ri??, Nepal",earthquake,6.2,1.8,0.062,77,reviewed,us,us
+2015-04-26T09:00:28.000Z,-17.9969,168.1767,45.37,4.9,mb,,71,4.368,0.4,us,us200029c7,2022-07-31T01:50:29.860Z,"32 km SSW of Port-Vila, Vanuatu",earthquake,8.3,5.5,0.063,80,reviewed,us,us
+2015-04-26T10:36:06.600Z,-10.6178,120.2969,35,4.6,mb,,80,2.746,0.51,us,us200029cj,2015-07-03T00:23:42.040Z,"106 km S of Waingapu, Indonesia",earthquake,6.6,2,0.078,54,reviewed,us,us
+2015-04-26T10:38:00.130Z,-10.5892,120.4098,35,5.1,mb,,49,2.648,0.89,us,us200029ci,2015-07-03T00:23:42.040Z,"104 km S of Waingapu, Indonesia",earthquake,3.5,1.8,0.059,98,reviewed,us,us
+2015-04-26T12:12:07.820Z,-31.6434,-177.7736,35.53,4.7,mb,,129,2.394,0.56,us,us200029cy,2015-07-03T00:23:42.040Z,"Kermadec Islands region",earthquake,9.7,5.7,0.108,32,reviewed,us,us
+2015-04-26T12:55:00.840Z,-1.9244,100.2726,66.57,4.7,mb,,44,2.363,0.55,us,us200029d7,2015-07-03T00:23:42.040Z,"108 km S of Padang, Indonesia",earthquake,7.6,5.8,0.067,71,reviewed,us,us
+2015-04-26T13:11:15.170Z,27.8112,85.4088,10,4.5,mb,,79,5.362,0.6,us,us200029dc,2022-07-31T01:53:24.260Z,"14 km N of Madhyapur Thimi, Nepal",earthquake,8.9,1.9,0.069,61,reviewed,us,us
+2015-04-26T13:14:26.480Z,-8.1719,124.9692,47.18,4.6,mb,,56,1.719,0.9,us,us20002buc,2015-07-03T00:23:42.040Z,"55 km NNW of Maubara, Timor Leste",earthquake,7.9,13.6,0.193,8,reviewed,us,us
+2015-04-26T14:05:31.080Z,-19.1226,-176.2962,299.9,4.6,mb,,135,5.536,0.47,us,us200029dk,2015-07-03T00:23:42.040Z,"217 km WNW of Pangai, Tonga",earthquake,12.4,6.2,0.074,54,reviewed,us,us
+2015-04-26T14:44:50.510Z,27.686,85.9657,10,4.5,mb,,149,0.797,0.71,us,us200029dv,2022-07-31T01:56:22.480Z,"30 km S of Kod?ri??, Nepal",earthquake,4.9,1.9,0.081,45,reviewed,us,us
+2015-04-26T15:34:46.670Z,-25.0082,-68.8138,89.19,4.5,mb,,61,0.72,0.86,us,us200029e2,2015-07-03T00:23:42.040Z,"174 km ENE of Taltal, Chile",earthquake,2.7,5.2,0.081,45,reviewed,us,us
+2015-04-26T16:26:06.730Z,27.8297,85.865,14,5,mwb,,22,0.847,0.73,us,us200029ea,2022-07-31T01:55:22.787Z,"17 km SSW of Kod?ri??, Nepal",earthquake,5.6,1.7,0.044,50,reviewed,us,us
+2015-04-26T17:54:31.500Z,-32.322,-71.79,36.2,4.8,mb,,,,1.3,us,us200029ek,2015-07-03T00:23:42.040Z,"54 km WNW of La Ligua, Chile",earthquake,4.8,6,0.196,8,reviewed,guc,us
+2015-04-26T20:23:06.530Z,-17.3963,-174.2133,91.74,4.6,mb,,73,4.186,1.15,us,us20002btd,2015-07-03T00:23:43.040Z,"140 km N of Neiafu, Tonga",earthquake,10.2,8,0.116,22,reviewed,us,us
+2015-04-26T21:10:30.030Z,-14.3325,-73.6758,62.36,4.6,mb,,87,3.865,0.55,us,us200029ff,2015-07-03T00:23:43.040Z,"21 km SW of Pampachiri, Peru",earthquake,7.4,6.8,0.058,88,reviewed,us,us
+2015-04-26T22:32:34.720Z,27.5298,85.6751,10,4.6,mb,,69,1.094,0.53,us,us200029gc,2022-07-31T02:04:50.500Z,"16 km ESE of Panauti, Nepal",earthquake,4.7,1.7,0.07,61,reviewed,us,us
+2015-04-26T22:53:11.380Z,-3.9371,153.198,58.88,4.6,mb,,105,1.062,0.74,us,us20002btq,2015-07-03T00:23:43.040Z,"112 km ENE of Kokopo, Papua New Guinea",earthquake,8.6,6.9,0.111,24,reviewed,us,us
+2015-04-26T23:08:37.800Z,0.5022,-29.5656,10,4.6,mb,,140,8.918,0.48,us,us20002btr,2015-07-03T00:23:43.040Z,"central Mid-Atlantic Ridge",earthquake,11,1.9,0.132,17,reviewed,us,us
+2015-04-26T23:35:29.730Z,-8.3237,-79.8322,22,5.6,mww,,41,1.85,0.8,us,us200029gw,2022-07-31T01:51:29.858Z,"76 km WSW of Santiago de Cao, Peru",earthquake,3.6,1.8,,,reviewed,us,us
+2015-04-27T05:34:31.500Z,26.42,53.568,20,4.8,mb,,,,0.85,us,us200029j2,2022-07-31T02:12:19.074Z,"47 km WSW of K?sh, Iran",earthquake,7.1,4.1,0.052,114,reviewed,teh,us
+2015-04-27T06:30:21.580Z,-22.5981,-67.6017,148.94,4.5,mb,,73,1.21,1.11,us,us200029j6,2015-07-03T00:23:43.040Z,"70 km ENE of San Pedro de Atacama, Chile",earthquake,7.2,6.4,0.052,109,reviewed,us,us
+2015-04-27T08:33:36.000Z,-16.27,-72.75,36,4.7,mb,,,,1.23,us,us20002bvr,2015-07-03T00:23:44.040Z,"36 km N of El Cardo, Peru",earthquake,9.5,3.9,0.159,12,reviewed,lim,us
+2015-04-27T12:05:00.160Z,6.0417,126.0351,165.24,4.5,mb,,109,1.117,0.61,us,us200029k3,2015-07-03T00:23:44.040Z,"37 km E of Lamitan, Philippines",earthquake,8.6,6.8,0.093,35,reviewed,us,us
+2015-04-27T12:35:53.930Z,26.8644,88.055,31.71,5.1,mb,,29,2.58,0.73,us,us200029k7,2022-07-31T02:18:01.136Z,"13 km ESE of Il?m, Nepal",earthquake,6.6,3.3,0.041,201,reviewed,us,us
+2015-04-27T13:20:58.600Z,20.814,120.6726,10,4.6,mb,,125,2.029,0.43,us,us20002bvz,2015-07-03T00:23:44.040Z,"131 km S of Hengchun, Taiwan",earthquake,6.4,1.6,0.158,12,reviewed,us,us
+2015-04-27T14:16:29.870Z,35.0105,26.8346,10,4.5,mb,,107,0.598,1.05,us,us200029kh,2015-07-03T00:23:44.040Z,"45 km S of Fry, Greece",earthquake,4.7,1.9,0.094,33,reviewed,us,us
+2015-04-27T15:14:55.200Z,24.01,121.59,40.2,4.5,mb,,,,0.94,us,us20002lr8,2015-07-03T00:23:44.040Z,"3 km NNW of Hualien City, Taiwan",earthquake,4.5,4.9,0.383,2,reviewed,tap,us
+2015-04-27T17:34:49.560Z,2.0346,124.7446,250.66,4.5,mb,,85,2.906,0.56,us,us200029ls,2015-07-03T00:23:44.040Z,"62 km N of Manado, Indonesia",earthquake,5.1,9.5,0.108,25,reviewed,us,us
+2015-04-27T17:36:03.250Z,-22.089,-177.8263,375.08,4.5,mb,,125,5.805,0.72,us,us20002bw6,2015-07-03T00:23:44.040Z,"289 km WSW of Haveluloto, Tonga",earthquake,12.9,7.9,0.156,12,reviewed,us,us
+2015-04-27T18:59:57.010Z,28.0066,84.682,21.35,4.8,mb,,61,1.884,0.74,us,us200029ma,2022-07-31T02:23:48.301Z,"43 km NNE of Bharatpur, Nepal",earthquake,3.9,4.5,0.055,102,reviewed,us,us
+2015-04-27T22:11:13.360Z,-56.2447,-27.0472,102.62,4.6,mb,,57,5.744,0.67,us,us200029pl,2015-07-03T00:23:44.040Z,"South Sandwich Islands region",earthquake,12.1,5.8,0.1,30,reviewed,us,us
+2015-04-28T05:03:25.410Z,37.3429,71.9357,166.62,4.6,mb,,43,0.288,0.79,us,us200029sf,2015-07-03T00:23:45.040Z,"37 km ESE of Khorugh, Tajikistan",earthquake,7.1,5.7,0.058,89,reviewed,us,us
+2015-04-28T05:11:02.230Z,-4.9106,133.7716,15.61,4.5,mb,,65,2.494,0.95,us,us200029sh,2015-07-03T00:23:45.040Z,"138 km NE of Tual, Indonesia",earthquake,8.6,4.7,0.171,14,reviewed,us,us
+2015-04-28T06:19:14.000Z,-23.9512,-179.9811,512.19,4.5,mb,,120,6.442,0.81,us,us20002c5m,2015-07-03T00:23:45.040Z,"south of the Fiji Islands",earthquake,13.1,10.6,0.091,35,reviewed,us,us
+2015-04-28T07:33:23.000Z,10.2294,-84.7056,76,4.6,mb,,,,0.92,us,us200029st,2022-07-31T02:32:16.216Z,"15 km N of Miramar, Costa Rica",earthquake,5.6,4.8,0.037,211,reviewed,ucr,us
+2015-04-28T10:57:24.810Z,-6.0913,149.8652,35,4.7,mb,,90,2.967,1.03,us,us20002c5v,2015-07-03T00:23:45.040Z,"37 km ENE of Kandrian, Papua New Guinea",earthquake,7.3,1.9,0.12,21,reviewed,us,us
+2015-04-28T11:19:50.500Z,-2.0856,-79.6231,89,5.4,mwb,,35,2.588,1.22,us,us200029t7,2022-07-31T02:35:05.173Z,"6 km NNW of Milagro, Ecuador",earthquake,7.9,1.8,0.051,37,reviewed,us,us
+2015-04-28T12:41:37.200Z,-27.5375,-63.0157,602.55,4.5,mb,,25,5.214,0.69,us,us200029vq,2015-07-03T00:23:45.040Z,"59 km NE of Suncho Corral, Argentina",earthquake,10,5.4,0.044,155,reviewed,us,us
+2015-04-28T13:32:40.070Z,6.044,152.0086,14.88,5.1,mb,,58,16.09,0.68,us,us200029vw,2015-07-03T00:23:45.040Z,"121 km SSW of Nema, Micronesia",earthquake,11,3.5,0.046,155,reviewed,us,us
+2015-04-28T16:39:39.190Z,-20.8865,-178.6329,581,6.1,mww,,13,4.422,0.85,us,us200029x8,2022-07-31T02:38:02.351Z,"Fiji region",earthquake,8.9,1.8,,,reviewed,us,us
+2015-04-28T17:49:50.830Z,43.166,145.7977,65.5,4.5,mb,,104,2.263,0.86,us,us200029yd,2015-07-03T00:23:46.040Z,"25 km SE of Nemuro, Japan",earthquake,8.4,6.7,0.075,52,reviewed,us,us
+2015-04-28T18:56:53.310Z,17.1089,-95.0355,111,5.5,mww,,43,0.145,1.24,us,us200029ys,2022-07-31T02:40:56.162Z,"4 km NNE of Paso Real de Sarabia, Mexico",earthquake,6,1.8,,,reviewed,us,us
+2015-04-28T23:50:14.270Z,-5.0631,129.7692,202.58,4.5,mb,,75,3.264,1.02,us,us20002a0r,2015-07-03T00:23:46.040Z,"212 km SSE of Amahai, Indonesia",earthquake,9,7.2,0.11,24,reviewed,us,us
+2015-04-29T00:26:51.540Z,25.9762,128.397,14.21,5,mb,,111,0.863,0.78,us,us20002a0t,2022-07-31T02:46:22.171Z,"65 km SE of Katsuren-haebaru, Japan",earthquake,6.9,4.4,0.055,106,reviewed,us,us
+2015-04-29T00:28:18.970Z,25.9938,128.4572,10,4.9,mb,,64,0.855,0.74,us,us20002c9a,2015-07-03T00:23:46.040Z,"69 km ESE of Katsuren-haebaru, Japan",earthquake,5.9,1.9,0.078,52,reviewed,us,us
+2015-04-29T02:37:46.190Z,27.433,53.4371,10,4.9,mb,,30,0.259,1.17,us,us20002a1c,2022-07-31T02:47:19.507Z,"56 km ESE of Mohr, Iran",earthquake,1.5,1.8,0.047,144,reviewed,us,us
+2015-04-29T03:26:03.310Z,-25.922,71.1382,10,4.5,mb,,76,23.321,0.39,us,us20002c92,2015-07-03T00:23:46.040Z,"Mid-Indian Ridge",earthquake,9.8,1.9,0.15,13,reviewed,us,us
+2015-04-29T04:56:58.320Z,-0.9402,80.7108,10,4.5,mb,,90,8.158,0.7,us,us20002c97,2015-07-03T00:23:46.040Z,"South Indian Ocean",earthquake,11,1.9,0.122,20,reviewed,us,us
+2015-04-29T06:27:52.700Z,-20.1605,-178.1532,561.61,4.5,mb,,129,4.32,0.77,us,us20002c9c,2015-07-03T00:23:47.040Z,"Fiji region",earthquake,13.2,9.1,0.171,12,reviewed,us,us
+2015-04-29T06:54:53.390Z,-31.4212,-176.8286,10,5,mb,,115,2.368,1.47,us,us20002a2h,2015-07-03T00:23:47.040Z,"Kermadec Islands region",earthquake,8.3,1.8,0.067,72,reviewed,us,us
+2015-04-29T11:22:42.260Z,11.956,-88.8883,38.7,5,mb,,52,1.752,0.87,us,us20002a56,2015-07-03T00:23:47.040Z,"151 km SSW of Puerto El Triunfo, El Salvador",earthquake,6.7,4.9,0.03,360,reviewed,us,us
+2015-04-29T11:27:45.310Z,27.864,85.4086,10,4.6,mb,,94,5.342,0.59,us,us20002a59,2022-07-31T02:49:09.193Z,"19 km NW of Nagarkot, Nepal",earthquake,8.6,1.8,0.06,83,reviewed,us,us
+2015-04-29T12:23:42.250Z,-6.5164,102.5477,19.86,4.5,mb,,103,4.993,1.12,us,us20002c9i,2015-07-03T00:23:47.040Z,"286 km SSW of Pagar Alam, Indonesia",earthquake,8.3,3.6,0.11,24,reviewed,us,us
+2015-04-29T16:09:51.830Z,40.0485,142.8086,37.3,5.4,mww,,36,1.788,0.59,us,us20002a7q,2022-07-31T02:51:00.813Z,"86 km ENE of Miyako, Japan",earthquake,6.5,4.7,,,reviewed,us,us
+2015-04-29T22:10:52.110Z,28.33,87.2319,10,4.5,mb,,55,3.675,0.85,us,us20002abh,2022-07-31T03:00:42.869Z,"58 km NE of Lobujya, Nepal",earthquake,6.7,1.9,0.062,75,reviewed,us,us
+2015-04-30T00:43:27.930Z,-23.5898,-67.8362,125.33,4.8,mb,,41,1.387,0.93,us,us20002acr,2015-07-09T22:00:03.040Z,"83 km SSE of San Pedro de Atacama, Chile",earthquake,7.1,4.6,0.079,49,reviewed,us,us
+2015-04-30T03:41:49.810Z,-8.8878,124.0043,82.68,4.5,mb,,108,0.9,0.84,us,us20002dfj,2015-07-09T22:00:03.040Z,"54 km NW of Pante Makasar, Timor Leste",earthquake,11.2,11.5,0.312,3,reviewed,us,us
+2015-04-30T05:08:55.980Z,0.7305,126.239,49.87,4.7,mb,,59,1.128,0.74,us,us20002ae9,2015-07-09T22:00:03.040Z,"127 km W of Ternate, Indonesia",earthquake,7,7.9,0.069,65,reviewed,us,us
+2015-04-30T05:34:23.260Z,-17.8082,-178.6286,559.22,4.6,mb,,73,3.162,0.71,us,us20002aea,2015-07-09T22:00:03.040Z,"219 km E of Levuka, Fiji",earthquake,9.3,5.9,0.035,236,reviewed,us,us
+2015-04-30T06:29:57.440Z,38.6805,-29.244,10,4.7,mb,,82,0.781,0.6,us,us20002aeh,2015-07-09T22:00:03.040Z,"49 km WNW of Castelo Branco, Portugal",earthquake,8.3,1.9,0.064,73,reviewed,us,us
+2015-04-30T09:53:50.310Z,-56.5685,-26.8942,101.11,4.6,mb,,87,5.922,0.81,us,us20002dez,2015-07-09T22:00:03.040Z,"South Sandwich Islands region",earthquake,14,6.5,0.114,29,reviewed,us,us
+2015-04-30T10:19:08.200Z,-60.3933,-26.9077,10,5.8,mwb,,38,8.016,1.06,us,us20002ag2,2022-05-03T18:24:28.300Z,"South Sandwich Islands region",earthquake,9.7,1.7,0.045,48,reviewed,us,us
+2015-04-30T10:45:02.930Z,-5.375,151.7706,31,6.7,mww,,12,1.239,1.1,us,us20002ag9,2022-07-31T03:05:55.673Z,"126 km SSW of Kokopo, Papua New Guinea",earthquake,6.3,1.7,,,reviewed,us,us
+2015-04-30T11:02:17.680Z,-5.3605,151.8541,35,4.9,mb,,83,1.202,1.42,us,us20002des,2015-07-09T22:00:03.040Z,"121 km SSW of Kokopo, Papua New Guinea",earthquake,8.1,1.9,0.106,28,reviewed,us,us
+2015-04-30T16:49:37.090Z,5.8019,126.2407,128.26,4.5,mb,,69,1.42,1.35,us,us20002ahh,2015-07-09T22:00:03.040Z,"62 km S of Pondaguitan, Philippines",earthquake,7.2,7.1,0.09,36,reviewed,us,us
+2015-04-30T18:32:29.310Z,-34.6229,-178.5002,36.63,4.7,mb,,223,3.91,0.7,us,us20002df8,2015-07-09T22:00:04.040Z,"south of the Kermadec Islands",earthquake,18.3,7.6,0.159,12,reviewed,us,us
+2015-04-30T19:21:18.100Z,26.2401,94.7996,10,4.8,mb,,45,2.734,1.23,us,us20002aid,2022-07-31T03:10:42.284Z,"3 km SW of Tuensang, India",earthquake,7.2,1.9,0.049,129,reviewed,us,us
+2015-04-30T20:01:47.480Z,-33.465,-178.4489,35,4.5,mb,,202,4.869,0.47,us,us20002dfa,2015-07-09T22:00:04.040Z,"south of the Kermadec Islands",earthquake,12.4,1.9,0.156,12,reviewed,us,us
+2015-04-30T20:50:22.400Z,-5.4577,151.9134,50.34,4.5,mb,,126,1.282,0.85,us,us20002aj3,2015-07-09T22:00:04.040Z,"129 km SSW of Kokopo, Papua New Guinea",earthquake,11.2,5.6,0.118,21,reviewed,us,us

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择页面</title>
+    <style>
+        /* 设置body和html的高度为100% */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0; /* 背景颜色可以根据需要调整 */
+        }
+
+        /* 中间容器的样式 */
+        .container {
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 15px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 轻微的阴影效果 */
+            text-align: center; /* 文本居中 */
+        }
+
+        /* 表单项的样式 */
+        form label, form select, form input {
+            display: block;
+            margin: 10px 0;
+            width: 100%;
+        }
+
+        form button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Transmitter Station Selection</h1>
+        <form id="inputForm">
+            <label for="numStations">Transmitter:</label>
+            <select id="numStations" name="numStations">
+                <option value="TBB">Bafa(Turkey)</option>
+                <option value="NRK">Grindavík(Iceland)</option>
+                <option value="ITS">Niscemi(Italy)</option>
+                <option value="GBZ">Criggion(UK)</option>
+                <option value="NAA">Cutler(USA)</option>
+                <option value="ICV">Tavolara(Italy)</option>
+                <option value="NPM">Lualualei(USA)</option>
+                <option value="FTA">Saint Assise(France)</option>
+                <option value="GQD">Anthorn(UK)</option>
+                <option value="NWC">Exmouth(Australia)</option>
+                <option value="DHO">Rhauderfehn(Germany)</option>
+                <option value="HWU">Rosnay(France)</option>
+                <option value="NLK">Seattle(USA)</option>
+                <option value="NML">LaMoure(USA)</option>
+                <option value="NAU">Aguada(USA)</option>
+            </select>
+
+            <label for="receiver">Receiver:</label>
+            <select id="receiver" name="receiver">
+                <option value="SHF">Sheffield</option>
+            </select>
+
+            <label for="year">Year (>= 2009):</label>
+            <input type="number" id="year" name="year" value="2015" min="2009">
+
+            <label for="month">Month (1-12):</label>
+            <input type="number" id="month" name="month" value="6" min="1" max="12">
+
+            <button type="button" onclick="submitForm()">Go</button>
+        </form>
+    </div>
+
+    <script>
+        function submitForm() {
+            var numStations = document.getElementById("numStations").value;
+            var year = document.getElementById("year").value;
+            var month = document.getElementById("month").value;
+            window.location.href = "地图.html?numStations=" + encodeURIComponent(numStations) + "&year=" + encodeURIComponent(year) + "&month=" + encodeURIComponent(month);
+        }
+    </script>
+</body>
+</html>

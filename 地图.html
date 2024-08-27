@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV to Map with Buttons</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        /* 设置body和html的高度为100% */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 让地图容器铺满整个屏幕 */
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+        /* 左上角的悬浮按钮 */
+        #floatingButton {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 10px;
+            background-color: rgba(255, 255, 255, 1);  /* 半透明的白色背景 */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 1000;  /* 确保按钮悬浮在地图之上 */
+            font-size: 16px;
+        }
+
+        #floatingButton:hover {
+            background-color: rgba(255, 255, 255, 1);  /* 悬停时背景颜色变为不透明 */
+        }
+    </style>
+</head>
+<body>
+	<!-- 悬浮按钮 -->
+	    <div id="floatingButton" onclick="window.location.href='homepage.html'">
+	        Back
+	    </div>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+	
+	<script>
+		function getQueryParam(param) {
+		    var urlParams = new URLSearchParams(window.location.search);
+		    return urlParams.get(param);
+		}
+		
+		function findStationData(stationName) {
+		    // 使用find方法根据name属性查找站点
+		    const station = stations.find(s => s.name === stationName);
+		    
+		    // 如果找到匹配的站点，返回其相关信息
+		    if (station) {
+		        const { name, latitude, longitude, frequency, location } = station;
+		        return { name, latitude, longitude, frequency, location };
+		    } else {
+		        // 如果没有找到匹配的站点，返回null或自定义的消息
+		        return null;
+		    }
+		}
+	</script>
+	
+    <script>
+		const stations = [
+		    { name: "TBB", latitude: 34.682222, longitude: 27.325273, frequency: 26.7,location:"Bafa, Didim district, Turkey" },
+		    { name: "NRK", latitude: 63.850833, longitude: -22.451667, frequency: 37.5 ,location:"	Grindavík, Iceland"},//无
+		    { name: "ITS", latitude: 37.125654, longitude: 14.436325, frequency: 45.9,location:"Niscemi, Italy" },
+		    { name: "GBZ", latitude: 52.72246, longitude: -3.06295, frequency: 19.58,location:"Criggion, Wales, UK" },
+		    { name: "NAA", latitude: 44.644506, longitude: -67.284565, frequency: 24.0,location: "	Cutler, Maine, USA"},
+		    { name: "ICV", latitude: 40.922889, longitude: 9.732052, frequency: 20.3,location:"Tavolara (Sardinia, Italy)" },
+		    { name: "NPM", latitude: 21.420382, longitude: -158.153912, frequency: 21.4,location: "Lualualei, Hawaii, USA"},
+		    { name: "FTA", latitude: 48.544910, longitude: 2.576294, frequency: 20.9,location:"Saint Assise, France" },
+		    { name: "GQD", latitude: 54.911683, longitude: -3.278738, frequency: 22.1,location:"Anthorn, Cumbria, UK" },
+		    { name: "NWC", latitude: -21.816325, longitude: 114.16546, frequency: 19.8,location:"Exmouth, Western Australia" },
+		    { name: "DHO", latitude: 53.087341, longitude: 7.608652, frequency: 23.4,location:"Rhauderfehn, Germany" },
+		    { name: "HWU", latitude: 46.714119, longitude: 1.244309, frequency: 18.3,location:"Rosnay, France" },
+		    { name: "NLK", latitude: 48.203633, longitude: -121.916828, frequency: 24.8,location:"Seattle, Washington (USA)" },
+		    { name: "NML", latitude: 46.365987, longitude: -98.335667, frequency: 25.2,location:"LaMoure, North Dakota, USA" },
+		    { name: "NAU", latitude: 18.398775, longitude: -67.177486, frequency: 40.8 ,location:"Aguada, Puerto Rico, USA"}
+		];
+		
+		
+		// 特殊标记的坐标
+		    const shefflat = 53.3815294468872;
+		    const shefflon = -1.4783511063762576;
+			var Transmitterstation = getQueryParam('numStations');
+			var year = parseInt(getQueryParam('year'), 10);
+			var month = parseInt(getQueryParam('month'), 10);
+			var stationData = findStationData(Transmitterstation);
+			
+			// 转换为直角坐标
+			const receiver = toCartesian(shefflat, shefflon);
+			const transmitter = toCartesian(stationData.latitude, stationData.longitude);
+			const lambda = 300 / stationData.frequency * 1000;
+        // 初始化地图
+        var map = L.map('map').setView([(53.3815294468872+stationData.latitude)/2, (-1.4783511063762576+stationData.longitude)/2], 5);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+
+		        // 创建特殊标记并添加到地图
+		        var ReceiverMarker = L.marker([shefflat, shefflon], {
+		            icon: L.icon({
+		                iconUrl: 'src/amyjohnson.png', // 红色标记图标
+		                iconSize: [50, 40],
+		                iconAnchor: [12, 41],
+		                popupAnchor: [1, -34],
+		            })
+		        }).addTo(map).bindPopup('<b>Special Marker</b><br>This is the special marker.');
+				var TransmitterMarker = L.marker([stationData.latitude, stationData.longitude], {
+				    icon: L.icon({
+				        iconUrl: 'src/receiver.png', // 红色标记图标
+				        iconSize: [40, 60],
+				        iconAnchor: [12, 41],
+				        popupAnchor: [1, -34],
+				    })
+				}).addTo(map).bindPopup('<b>Special Marker</b><br>This is the special marker.'+stationData.location);
+				
+				var polyline = L.polyline([[stationData.latitude, stationData.longitude], [shefflat, shefflon]], {
+				    color: 'grey', // 虚线颜色
+				    dashArray: '2, 6', // 设置为虚线
+				}).addTo(map);
+		// 加载CSV文件
+		const MonthStr = month <= 9 ? '0' + month : month.toString();
+        fetch(`src/earthquake/${year}${MonthStr}.csv`)  // 替换为你CSV文件的实际路径
+            .then(response => response.text())
+            .then(data => processCSV(data))
+            .catch(error => console.error('Error loading CSV file:', error));
+
+        // 处理CSV内容
+      //   function processCSV(data) {
+      //       var lines = data.split('\n');
+      //       // 获取列名行
+      //       var header = lines[0].split(',');
+            
+      //       // 遍历数据行
+      //       lines.slice(1).forEach(function(line, index) {
+      //           var fields = line.split(',');
+      //           if (fields.length >= 5) {
+      //               var time = fields[0].trim();
+      //               var lat = parseFloat(fields[1].trim());
+      //               var lon = parseFloat(fields[2].trim());
+      //               var depth = parseFloat(fields[3].trim());
+      //               var magnitude = parseFloat(fields[4].trim());
+
+      //               if (!isNaN(lat) && !isNaN(lon)) {
+      //                   var marker = L.marker([lat, lon]).addTo(map);
+
+      //                   // 添加弹出窗口和按钮
+      //                   marker.bindPopup(
+      //                       `<b>Earthquake ${index + 1}</b><br>` +
+      //                       `Time: ${time}<br>` +
+      //                       `Lat: ${lat}, Lon: ${lon}<br>` +
+      //                       `Depth: ${depth} km<br>` +
+      //                       `Magnitude: ${magnitude}<br>` +
+      //                       `<button onclick="markerButtonClicked(${index + 1})">Click Me</button>`
+      //                   );
+						
+						//  // 添加到特殊标记的虚线连接
+      //                   var polyline = L.polyline([[lat, lon], [shefflat, shefflon]], {
+      //                       color: 'grey', // 虚线颜色
+      //                       dashArray: '2, 6', // 设置为虚线
+      //                   }).addTo(map);
+						
+      //               }
+      //           }
+      //       });
+      //   }
+		
+		function processCSV(data) {
+		    var lines = data.split('\n');
+		    var header = lines[0].split(',');
+		
+		    var points = [];
+		
+		    lines.slice(1).forEach(function(line, index) {
+		        var fields = line.split(',');
+		        if (fields.length >= 5) {
+		            var time = fields[0].trim();
+		            var lat = parseFloat(fields[1].trim());
+		            var lon = parseFloat(fields[2].trim());
+		            var depth = parseFloat(fields[3].trim());
+		            var magnitude = parseFloat(fields[4].trim());
+					var place = fields[13].trim();
+					console.log(place)
+		            if (!isNaN(lat) && !isNaN(lon)) {
+		                var cartesianPoint = toCartesian(lat, lon);
+		                // 包含其他地震信息
+		                points.push({
+		                    ...cartesianPoint,
+		                    time: time,
+		                    depth: depth,
+		                    magnitude: magnitude,
+		                    lat: lat,
+		                    lon: lon,
+							place:place
+		                });
+		            }
+		        }
+		    });
+		
+		    const filteredPoints = filterEarthquakePoints(points, transmitter, receiver, lambda);
+			console.log(stationData.name)
+		    filteredPoints.forEach((point, index) => {
+		        const latLng = ecefToLatLng(point);
+		        if (latLng && !isNaN(latLng.lat) && !isNaN(latLng.lon)) {
+		            var marker = L.marker([latLng.lat, latLng.lon]).addTo(map);
+		            marker.bindPopup(
+		                `<b>${point.place}</b><br>` +
+		                `Time: ${point.time}<br>` +
+		                `Lat: ${latLng.lat}, Lon: ${latLng.lon}<br>` +
+		                `Depth: ${point.depth} km<br>` +
+		                `Magnitude: ${point.magnitude}`+ 
+						`<br><button type="button" onclick="redirectToPage('${stationData.name}', '${point.time}')">Click Me</button>`
+		            );
+		        } else {
+		            console.error(`Skipping invalid LatLng: ${point}`);
+		        }
+		    });
+		}
+
+		function redirectToPage(stationName, earthquakeTime) {
+		    const url = `显示页.html?station=${encodeURIComponent(stationName)}&time=${encodeURIComponent(earthquakeTime)}`;
+		    window.location.href = url;
+		}
+
+        // 按钮点击事件处理
+        function markerButtonClicked(markerId) {
+            alert('Button for Earthquake ' + markerId + ' clicked!');
+            // 可以在这里执行更多操作，比如导航到其他页面、显示更多信息等	
+        }
+		
+		
+		function toCartesian(lat, lon) {
+		    const R = 6371; // 地球半径，单位为千米
+		    const radLat = lat * Math.PI / 180;
+		    const radLon = lon * Math.PI / 180;
+		    
+		    const x = R * Math.cos(radLat) * Math.cos(radLon);
+		    const y = R * Math.cos(radLat) * Math.sin(radLon);
+		    const z = R * Math.sin(radLat);
+		    
+		    return { x, y, z };
+		}
+		
+		function distance(point1, point2) {
+		    return Math.sqrt(
+		        Math.pow(point2.x - point1.x, 2) +
+		        Math.pow(point2.y - point1.y, 2) +
+		        Math.pow(point2.z - point1.z, 2)
+		    );
+		}
+		
+		function nearestPointOnLine(p, a, b) {
+		    const ab = {
+		        x: b.x - a.x,
+		        y: b.y - a.y,
+		        z: b.z - a.z
+		    };
+		    const ap = {
+		        x: p.x - a.x,
+		        y: p.y - a.y,
+		        z: p.z - a.z
+		    };
+		    const t = (ap.x * ab.x + ap.y * ab.y + ap.z * ab.z) /
+		              (ab.x * ab.x + ab.y * ab.y + ab.z * ab.z);
+		    
+		    return {
+		        x: a.x + t * ab.x,
+		        y: a.y + t * ab.y,
+		        z: a.z + t * ab.z,
+		        t: t
+		    };
+		}
+		
+		function isWithinThreshold(p, a, b, threshold) {
+		    const nearest = nearestPointOnLine(p, a, b);
+		    const distanceToLine = distance(p, nearest);
+		    return distanceToLine <= threshold;
+		}
+		
+		function fresnelRadius(lambda, x, D) {
+		    return Math.sqrt(
+		        Math.pow(lambda, 2) / 4 +
+		        lambda * x * (D - x) / D
+		    );
+		}
+		
+		function isInFresnelZone(p, a, b, lambda) {
+		    const nearest = nearestPointOnLine(p, a, b);
+		    if (nearest.t < 0 || nearest.t > 1) return false; // 不在发射器和接收器之间
+		    const x = nearest.t * distance(a, b);
+		    const fresnelRadiusAtX = fresnelRadius(lambda, x, distance(a, b));
+		    const distanceToLine = distance(p, nearest);
+		    return distanceToLine <= fresnelRadiusAtX;
+		}
+		
+		function calculateInitialThreshold(lambda, D, multiplier = 1.2) {
+		    // 计算最大费涅耳区半径
+		    const yMax = Math.sqrt(Math.pow(lambda, 2) / 4 + (lambda * D) / 4);
+		    // 根据 multiplier 设置阈值，默认设置为1.5倍的yMax
+		    return yMax * multiplier;
+		}
+		
+		function filterEarthquakePoints(points, transmitter, receiver, lambda) {
+		    const D = distance(transmitter, receiver);
+			const InitialThreshold = calculateInitialThreshold(lambda, D);
+		    const results = [];
+		
+		    for (let p of points) {
+		        if (isWithinThreshold(p, transmitter, receiver, InitialThreshold)) {
+		            if (isInFresnelZone(p, transmitter, receiver, lambda)) {
+		                results.push(p);
+		            }
+		        }
+		    }
+		
+		    return results;
+		}
+		
+		function ecefToLatLng(point) {
+		    const R = 6371; // 地球半径，单位为千米
+		    const lat = Math.asin(point.z / R) * (180 / Math.PI);
+		    const lon = Math.atan2(point.y, point.x) * (180 / Math.PI);
+		    return { lat, lon };
+		}
+    </script>
+</body>
+</html>

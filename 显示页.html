@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/fft.js@4.0.4/lib/fft.min.js"></script>
+	<script src="lib/fft.js"></script>
 
-    <title>结果页面</title>
+    <title>Time Domain Plot</title>
 	
 	<style>
 	    /* 左上角的悬浮按钮 */
@@ -161,67 +161,64 @@
 </script>
 
 <script>
-	function dataplot(dayDataset, monthDataset) {
-	    console.log(dayDataset);
-	    console.log(monthDataset);
+	    function dataplot(dayDataset, monthDataset) {
+	        console.log(dayDataset);
+	        console.log(monthDataset);
 	
-	    const dayTrace = {
-	        x: dayDataset.map(num => num.time),
-	        y: dayDataset.map(num => num.value),
-	        mode: 'lines+markers',
-	        type: 'scatter',
-	        name: 'Earthquake Day',
-	        line: { shape: 'spline', smoothing: 1.3 },
-	        marker: { size: 4 }
-	    };
+	        const dayTrace = {
+	            x: dayDataset.map(num => num.time),
+	            y: dayDataset.map(num => num.value),
+	            mode: 'lines+markers',
+	            type: 'scatter',
+	            name: 'Earthquake Day',
+	            line: { shape: 'spline', smoothing: 1.3 },
+	            marker: { size: 4 }
+	        };
 	
-	    const monthTrace = {
-	        x: monthDataset.map(num => num.time),
-	        y: monthDataset.map(num => num.value),
-	        mode: 'lines+markers',
-	        type: 'scatter',
-	        name: 'Monthly Average',
-	        line: { shape: 'spline', smoothing: 1.3 },
-	        marker: { size: 4 }
-	    };
+	        const monthTrace = {
+	            x: monthDataset.map(num => num.time),
+	            y: monthDataset.map(num => num.value),
+	            mode: 'lines+markers',
+	            type: 'scatter',
+	            name: 'Monthly Average',
+	            line: { shape: 'spline', smoothing: 1.3 },
+	            marker: { size: 4 }
+	        };
 	
+	        const layout = {
+	            title: 'Time Domain Plot',
+	            xaxis: {
+	                title: 'Time/h',
+	                autorange: true // 自动调整范围
+	            },
+	            yaxis: {
+	                title: 'VLF data',
+	                autorange: true
+	            },
+	            dragmode: 'pan', // 启用拖动平移功能
+	            scrollZoom: true, // 启用滚轮缩放
+	            responsive: true,
+	            shapes: [
+	                {
+	                    type: 'line',
+	                    x0: parsedTime.seconds / 3600, // 将秒数转为小时，匹配 x 轴的单位
+	                    x1: parsedTime.seconds / 3600,
+	                    y0: 0,
+	                    y1: 1,
+	                    xref: 'x',
+	                    yref: 'paper', // yref 设为 'paper' 表示占用整个图表高度
+	                    line: {
+	                        color: 'red',
+	                        width: 2,
+	                        dash: 'dashdot'
+	                    }
+	                }
+	            ]
+	        };
 	
-		const layout = {
-		        title: 'Time Domain Plot',
-		        xaxis: {
-		            title: 'Time/h',
-		            autorange: true // 自动调整范围
-		        },
-		        yaxis: {
-		            title: 'VLF data',
-		            autorange: true
-		        },
-		        dragmode: 'zoom', // 设置为缩放模式
-		        scrollZoom: true,
-		        responsive: true,
-		        shapes: [
-		            {
-		                type: 'line',
-		                x0: parsedTime.seconds / 3600, // 将秒数转为小时，匹配 x 轴的单位
-		                x1: parsedTime.seconds / 3600,
-		                y0: 0,
-		                y1: 1,
-		                xref: 'x',
-		                yref: 'paper', // yref 设为 'paper' 表示占用整个图表高度
-		                line: {
-		                    color: 'red',
-		                    width: 2,
-		                    dash: 'dashdot'
-		                }
-		            }
-		        ]
-		    };
-
-	
-		
-	    // 绘制图表
-	    Plotly.newPlot('plot', [dayTrace, monthTrace], layout);
-	}
+	        // 绘制图表
+	        Plotly.newPlot('plot', [dayTrace, monthTrace], layout);
+	    }
 </script>
 
 <script>
@@ -315,11 +312,13 @@
 			const selectedMonth = parseInt(parsedTime.month, 10);
 			
 			let day = 0;
-			if ([1, 3, 5, 7, 8, 10, 12].includes(selectedMonth)) {
+			if ([1, 3, 5, 7].includes(selectedMonth)) {
 			    day = 32;
-			} else if ([4, 6, 9, 11].includes(selectedMonth)) {
+			} else if ([4, 6, 8, 10, 12].includes(selectedMonth)) {
 			    day = 31;
-			} else if (selectedMonth === 2) {
+			} else if([ 9, 11].includes(selectedMonth)){
+				 day = 30;
+			}else if (selectedMonth === 2) {
 			    if ((selectedYear % 4 === 0 && selectedYear % 100 !== 0) || (selectedYear % 400 === 0)) {
 			        day = 30;
 			    } else {

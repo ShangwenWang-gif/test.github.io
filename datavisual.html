@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+    <meta charset="UTF-8">
+    <title>Data Visualization Testing</title>
+	
+	<!-- 引入 Plotly.js 库 /import the Plotly.js library-->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	
+    <style>
+        .button-container {
+			text-align: center;
+		}
+		.button-container button {
+		    margin: 0 5px; /* 设置按钮之间的间距 */
+		}
+    </style>
+</head>
+
+
+<body>
+	<!-- 图标的容器/chart container -->
+    <div id="discrete_data"></div>
+	
+	<div class="button-container">
+	    <button id="switch_button">switch</button>
+	    <button id="refresh">refresh</button>
+		<button id="performFFT">Perform FFT</button>
+	</div>
+</body>
+
+</html>
+
+
+<script>
+		var switch_button = false;
+		var fft_button = false;
+		
+        // 数据集，可以改为通过外部输入
+		const dataset = [];
+		for(var i= 0;i<256;i++){
+			switch (i%16) {
+			  case 0:
+				dataset.push({ x: i, y: 0 });
+			    break;
+			  case 1:
+				dataset.push({ x: i, y: 10 });
+			    break;
+			  case 2:
+				dataset.push({ x: i, y: 20 });
+			    break;
+			  case 3:
+				dataset.push({ x: i, y: 25 });
+				break;
+			  case 4:
+				dataset.push({ x: i, y: 30 });
+				break;
+			  case 5:
+				dataset.push({ x: i, y: 25 });
+				break;
+			  case 6:
+				dataset.push({ x: i, y: 20 });
+				break;
+			  case 7:
+				dataset.push({ x: i, y: 10 });
+				break;
+			  case 8:
+				dataset.push({ x: i, y: 0 });
+				break;
+			  case 9:
+				dataset.push({ x: i, y: -10 });
+			    break;
+			  case 10:
+				dataset.push({ x: i, y: -20 });
+			    break;
+			  case 11:
+				dataset.push({ x: i, y: -25 });
+				break;
+			  case 12:
+				dataset.push({ x: i, y: -30 });
+				break;
+			  case 13:
+				dataset.push({ x: i, y: -25 });
+				break;
+			  case 14:
+				dataset.push({ x: i, y: -20 });
+				break;
+			  case 15:
+				dataset.push({ x: i, y: -10 });
+				break;
+				
+
+			  default:
+
+			}
+		}
+		
+        function plotData(dataset) {
+            const xValues = dataset.map(point => point.x);
+            const yValues = dataset.map(point => point.y);
+
+            // 数据跟踪对象
+            var trace = {
+                x: xValues,
+                y: yValues,
+                type: 'scatter',
+                mode: 'lines+markers', // 线和标记
+                line: {
+                    shape: switch_button ? 'spline':'linear', // 设置为 spline 使曲线平滑
+                    smoothing: switch_button ? 1.3:0 // 平滑强度，范围从0到1.3
+                },
+                marker: {
+                    color: fft_button ? 'blue' : 'green',
+                    size: fft_button ? 8 : 4 ,
+                }
+            };
+
+            // 布局配置
+            const config = {
+                title: 'Data Visualization Testing',
+                xaxis: {
+                    title: 'x',
+                    autorange: true // 自动调整范围
+                },
+                yaxis: {
+                    title: 'y',
+                    autorange: true
+                },
+                dragmode: 'zoom' ,// 设置为缩放模式
+				
+				scrollZoom: true,
+				responsive: true,
+            };
+
+            // 在指定的div中绘制图表
+            Plotly.newPlot('discrete_data', [trace], config);
+        }
+
+
+
+		function fft(input) {
+		    const n = input.length;
+		    if (n <= 1) return input;
+		
+		    const hN = n / 2;
+		    let even = [];
+		    let odd = [];
+		    even.length = hN;
+		    odd.length = hN;
+		    for (let i = 0; i < hN; ++i) {
+		        even[i] = input[i * 2];
+		        odd[i] = input[i * 2 + 1];
+		    }
+		    even = fft(even);
+		    odd = fft(odd);
+		
+		    const a = -2 * Math.PI;
+		    for (let k = 0; k < hN; ++k) {
+		        const p = k / n;
+		        const t = {
+		            re: odd[k].re * Math.cos(a * p) - odd[k].im * Math.sin(a * p),
+		            im: odd[k].re * Math.sin(a * p) + odd[k].im * Math.cos(a * p)
+		        };
+		        input[k] = {
+		            re: even[k].re + t.re,
+		            im: even[k].im + t.im
+		        };
+		        input[k + hN] = {
+		            re: even[k].re - t.re,
+		            im: even[k].im - t.im
+		        };
+		    }
+		    return input;
+		}
+		
+		// Helper function to handle complex numbers if necessary
+		function transformToComplex(input) {
+		    let output = [];
+		    for (let i = 0; i < input.length; i++) {
+		        output.push({
+		            re: input[i],
+		            im: 0
+		        });
+		    }
+		    return output;
+		}
+
+
+
+		
+		// 调用绘图函数
+        plotData(dataset);
+		
+        document.getElementById('switch_button').addEventListener('click', function() {
+            switch_button = !switch_button; // 切换
+            plotData(dataset); // 重新绘图
+        });
+		document.getElementById('refresh').addEventListener('click', function() {
+			switch_button = false;
+			fft_button = false;
+		    plotData(dataset); // 重新绘图
+		});
+        document.getElementById('performFFT').addEventListener('click', function() {
+            const yValues = dataset.map(point => point.y);
+            const fftResults = fft(transformToComplex(yValues));
+            const magnitudes = fftResults.map(complex => Math.sqrt(complex.re * complex.re + complex.im * complex.im));
+			switch_button = false;
+			fft_button = true;
+            plotData(magnitudes.map((mag, i) => ({ x: i, y: mag })));
+        });
+    </script>
